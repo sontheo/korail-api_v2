@@ -36,6 +36,10 @@ def resolve(text, namespace=None):
 
 
 def attach(function, spec, namespace):
+    # Type aliases are public values, not functions. Python 3.14's unified
+    # Union objects do not permit assigning function annotation attributes.
+    if typing.get_origin(function) is not None:
+        return
     annotations = {
         p["name"]: resolve(p["annotation"], namespace)
         for p in spec.get("parameters", ())

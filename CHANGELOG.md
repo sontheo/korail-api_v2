@@ -9,6 +9,7 @@
 - Retain tested failure context, queue behavior, error distinctions and transaction protections.
 - Reuse resolved endpoint URLs and simplify common-envelope decoding; see `VALIDATION.md` for historical mock-search measurements and limits.
 - Include standalone tests, typed public declarations, isolated artifact verification and CI.
+- Keep runtime annotation installation compatible with Python 3.14's unified union types.
 - Add English documentation, original banner artwork and explicit legal/provenance notices.
 - Keep the previous implementation and history separately maintained; retain historical attribution in `licenses/`.
 
