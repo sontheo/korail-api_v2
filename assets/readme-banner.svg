@@ -9,7 +9,7 @@
 <rect width="1280" height="380" rx="24" fill="url(#bg)"/>
 <rect width="1280" height="380" rx="24" fill="url(#grid)"/>
 <g font-family="Arial, Helvetica, sans-serif">
-  <rect x="64" y="52" width="194" height="30" rx="15" fill="#203c48"/>
+  <rect x="64" y="52" width="240" height="30" rx="15" fill="#203c48"/>
   <text x="81" y="72" fill="#8ce8d8" font-size="12" letter-spacing="2">UNOFFICIAL PYTHON SDK</text>
   <text x="60" y="168" fill="#f4f9fc" font-size="76" font-weight="700" letter-spacing="-3">korail-api</text>
   <text x="64" y="214" fill="#c6d6df" font-size="24">Compatible imports. Clear boundaries.</text>
