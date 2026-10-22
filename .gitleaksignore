@@ -1,0 +1,19 @@
+# Reviewed deterministic encryption test vectors; see .github/secret-fixtures.md.
+# Exact immutable commit/file/rule/line fingerprints only.
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tests/fixtures/synthetic-cases.json:generic-api-key:86
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:117545
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:117565
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:64219
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:64239
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65337
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65357
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65374
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65394
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65411
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65431
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65448
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65468
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65485
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:65505
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:66322
+4b4ebd5483d824a242fe8b63015c78d71fe1bf2d:tools/validation/observations/decoder-observations.json:generic-api-key:66339
