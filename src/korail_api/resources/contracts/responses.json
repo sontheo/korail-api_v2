@@ -1,0 +1,2722 @@
+{
+  "TrainSummary": {
+    "train_no": [
+      "h_trn_no"
+    ],
+    "train_group_code": [
+      "h_trn_gp_cd"
+    ],
+    "departure_station_code": [
+      "h_dpt_rs_stn_cd"
+    ],
+    "arrival_station_code": [
+      "h_arv_rs_stn_cd"
+    ],
+    "departure_date": [
+      "h_dpt_dt"
+    ],
+    "departure_time": [
+      "h_dpt_tm"
+    ],
+    "arrival_time": [
+      "h_arv_tm"
+    ],
+    "departure_station_name": [
+      "h_dpt_rs_stn_nm"
+    ],
+    "arrival_station_name": [
+      "h_arv_rs_stn_nm"
+    ],
+    "run_date": [
+      "h_run_dt"
+    ],
+    "train_class_code": [
+      "h_trn_clsf_cd"
+    ],
+    "departure_run_order": [
+      "h_dpt_stn_run_ordr"
+    ],
+    "arrival_run_order": [
+      "h_arv_stn_run_ordr"
+    ],
+    "departure_construction_order": [
+      "h_dpt_stn_cons_ordr"
+    ],
+    "arrival_construction_order": [
+      "h_arv_stn_cons_ordr"
+    ],
+    "seat_attribute_code": [
+      "h_seat_att_cd"
+    ],
+    "goods_no": [
+      "h_gd_no"
+    ],
+    "train_sequence": [
+      "h_trn_seq"
+    ],
+    "wait_reservation_flag": [
+      "h_wait_rsv_flg"
+    ],
+    "change_train_sequence": [
+      "h_chg_trn_seq"
+    ],
+    "seat_map_flag": [
+      "h_rd_seat_map_flg"
+    ],
+    "general_reservation_code": [
+      "h_gen_rsv_cd"
+    ],
+    "general_reservation_flag": [
+      "h_gen_rsv_flg"
+    ],
+    "car_type_code": [
+      "h_car_tp_cd"
+    ],
+    "car_type_name": [
+      "h_car_tp_nm"
+    ],
+    "train_class_name": [
+      "h_trn_clsf_nm"
+    ],
+    "train_group_name": [
+      "h_trn_gp_nm"
+    ],
+    "general_room_class_name": [
+      "h_gen_psrm_cl_nm"
+    ],
+    "special_room_class_name": [
+      "h_spe_psrm_cl_nm"
+    ],
+    "secondary_general_reservation_code": [
+      "h_gen_rsv_cd2"
+    ],
+    "special_reservation_code": [
+      "h_spe_rsv_cd"
+    ],
+    "special_reservation_flag": [
+      "h_spe_rsv_flg"
+    ],
+    "secondary_special_reservation_code": [
+      "h_spe_rsv_cd2"
+    ],
+    "free_reservation_code": [
+      "h_free_rsv_cd"
+    ],
+    "free_reservation_flag": [
+      "h_free_rsv_flg"
+    ],
+    "standing_reservation_code": [
+      "h_stnd_rsv_cd"
+    ],
+    "standing_reservation_flag": [
+      "h_stnd_rsv_flg"
+    ],
+    "reservation_available_flag": [
+      "h_rsv_psb_flg"
+    ],
+    "general_availability_name": [
+      "h_gen_rsv_nm"
+    ],
+    "special_availability_name": [
+      "h_spe_rsv_nm"
+    ],
+    "standard_remaining_seat_count": [
+      "h_std_rest_seat_cnt"
+    ],
+    "first_class_remaining_seat_count": [
+      "h_fst_rest_seat_cnt"
+    ],
+    "free_remaining_seat_count": [
+      "h_free_rest_seat_cnt"
+    ],
+    "standing_remaining_seat_count": [
+      "h_stnd_rest_seat_cnt"
+    ],
+    "free_car_count": [
+      "h_free_sracar_cnt"
+    ],
+    "reservation_wait_passenger_count": [
+      "h_rsv_wait_ps_cnt"
+    ],
+    "change_train_division_code": [
+      "h_chg_trn_dv_cd"
+    ],
+    "merge_seat_application_flag": [
+      "h_yms_apl_flg"
+    ],
+    "train_suspension_flag": [
+      "h_trn_sps_flg"
+    ],
+    "general_fare_text": [
+      "h_rsv_psb_nm"
+    ],
+    "special_fare_text": [
+      "h_spe_rsv_psb_nm"
+    ],
+    "standing_availability_name": [
+      "h_stnd_rsv_nm"
+    ],
+    "free_availability_name": [
+      "h_free_rsv_nm"
+    ],
+    "arrival_date": [
+      "h_arv_dt"
+    ]
+  },
+  "TicketListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "reservations": [
+      "pnr_list"
+    ]
+  },
+  "TicketListReservation": {
+    "tickets": [
+      "ticket_list"
+    ]
+  },
+  "TicketListTicket": {
+    "pnr_no": [
+      "h_pnr_no"
+    ],
+    "return_sale_date": [
+      "h_orgtk_ret_sale_dt"
+    ],
+    "train_info": [
+      "jrn_info"
+    ],
+    "trains": [
+      "jrn_info"
+    ]
+  },
+  "TicketListTrain": {
+    "train_no": [
+      "h_trn_no"
+    ],
+    "seat_no": [
+      "h_seat_no"
+    ]
+  },
+  "RefundCommissionResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "refund_amount": [
+      "ret_amt"
+    ],
+    "refund_fee": [
+      "ret_fee"
+    ],
+    "proceed_possible_flag": [
+      "prg_psb_flg"
+    ]
+  },
+  "CartListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "cart_infos",
+      "cart_info"
+    ]
+  },
+  "CartItem": {
+    "received_amount": [
+      "h_rcvd_amt"
+    ],
+    "pnr_no": [
+      "h_pnr_no"
+    ]
+  },
+  "DepositBankListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "dptnBank"
+    ]
+  },
+  "DepositBank": {
+    "code": [
+      "dptnBankCd"
+    ],
+    "display_name": [
+      "dptnBankNm"
+    ]
+  },
+  "DelayDiscountTicketListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "disc_infos",
+      "disc_info"
+    ]
+  },
+  "DelayDiscountTicket": {
+    "fare": [
+      "h_dlay_fare"
+    ]
+  },
+  "DiscountCouponListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "coupon_infos",
+      "coupon_info"
+    ]
+  },
+  "DiscountCoupon": {
+    "expiration_date": [
+      "h_fdcert_mg_cls_dt"
+    ],
+    "coupon_no": [
+      "h_cpn_no"
+    ],
+    "discount_rate_amount_division_code": [
+      "h_disc_rt_amt_dv_cd"
+    ],
+    "weekday_fare_discount": [
+      "h_inwk_fare_disc_rt_amt"
+    ],
+    "weekend_fare_discount": [
+      "h_wknd_fare_disc_rt_amt"
+    ]
+  },
+  "KorailPointSummaryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "korail_point": [
+      "h_korail_point"
+    ]
+  },
+  "MileageHistoryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "page_count": [
+      "pgCnt"
+    ],
+    "entries": [
+      "specList"
+    ]
+  },
+  "MileageHistoryEntry": {
+    "departure_date": [
+      "dptDt"
+    ],
+    "point_amount": [
+      "pontAmt"
+    ]
+  },
+  "DiscountCardUsageListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "tkUseList"
+    ]
+  },
+  "DiscountCardUsage": {
+    "passenger_name": [
+      "custNm"
+    ],
+    "run_date": [
+      "runDt1"
+    ]
+  },
+  "DiscountCardScheduleResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "trains": [
+      "trnScdlList"
+    ]
+  },
+  "DiscountCardScheduleTrain": {
+    "train_no": [
+      "trnNo"
+    ],
+    "run_date": [
+      "runDt"
+    ]
+  },
+  "PassAvailabilityResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "offices": [
+      "wct_info"
+    ],
+    "pass_info": [
+      "pass_info"
+    ],
+    "open_dates": [
+      "pass_info",
+      "*",
+      "h_use_open_dt"
+    ],
+    "ticket_issue_dates": [
+      "pass_info",
+      "*",
+      "h_use_open_dt"
+    ]
+  },
+  "PassOffice": {
+    "code": [
+      "eng_cd_val"
+    ],
+    "display_name": [
+      "kor_cd_val"
+    ]
+  },
+  "PassOpenDate": {
+    "open_date": [
+      "h_use_open_dt"
+    ],
+    "item_sequence": [
+      "h_item_sqno"
+    ],
+    "pnr_no": [
+      "h_pnr_no"
+    ]
+  },
+  "PassScheduleResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "schedules": [
+      "schedule_info"
+    ]
+  },
+  "PassScheduleInfo": {
+    "trains": [
+      "train_list"
+    ]
+  },
+  "PassScheduleTrain": {
+    "train_no": [
+      "h_trn_no"
+    ]
+  },
+  "TripMenuResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "menuList"
+    ]
+  },
+  "TripMenuItem": {
+    "title": [
+      "menuTitle"
+    ],
+    "contents": [
+      "contList"
+    ],
+    "content_count": [
+      "contCount"
+    ]
+  },
+  "TripMenuContent": {
+    "title": [
+      "contTitle"
+    ],
+    "pass_data": [
+      "passData"
+    ]
+  },
+  "PassMenuData": {
+    "station_selection": [
+      "h_seiect_station"
+    ],
+    "commuter_kind_code": [
+      "h_cmtr_knd_cd"
+    ]
+  },
+  "PassMenuResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "list"
+    ]
+  },
+  "PassMenuItem": {
+    "title": [
+      "title"
+    ],
+    "pass_data": [
+      "passData"
+    ],
+    "url": [
+      "webData",
+      "url"
+    ]
+  },
+  "CrewRequestListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "prsList"
+    ]
+  },
+  "CrewRequestOption": {
+    "message_code": [
+      "intgMsgCd"
+    ],
+    "content": [
+      "prsCont"
+    ]
+  },
+  "CommuterKindMenuResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "title": [
+      "title"
+    ],
+    "pass_data": [
+      "passData"
+    ]
+  },
+  "CommuterInfoResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "passenger_options": [
+      "psgList"
+    ],
+    "available_passenger_count_from": [
+      "h_msg_cd"
+    ],
+    "available_passenger_count_to": [
+      "avlPrnbTo"
+    ]
+  },
+  "CommuterPassengerOption": {
+    "commuter_usage_age_code": [
+      "cmtrUtlAgeCd"
+    ],
+    "common_code_name": [
+      "comnCdNm"
+    ],
+    "customer_age_from": [
+      "custAgeFrom"
+    ],
+    "customer_age_to": [
+      "custAgeTo"
+    ],
+    "passenger_count_from": [
+      "psgPrnbFrom"
+    ],
+    "passenger_count_to": [
+      "psgPrnbTo"
+    ]
+  },
+  "ProductReservationListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "mainInfo",
+      "entity"
+    ],
+    "total_count": [
+      "mainInfo",
+      "strTotCnt"
+    ]
+  },
+  "ProductReservation": {
+    "virtual_reservation_no": [
+      "strVrRsvNo"
+    ],
+    "reservation_sequence": [
+      "strVrRsvSqno"
+    ]
+  },
+  "ProductDetailResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "product_name": [
+      "mainInfo",
+      "strGdNm"
+    ],
+    "cancellation_amount": [
+      "mainInfo",
+      "strCncRetAmt"
+    ],
+    "detail_raw": [
+      "mainInfo"
+    ],
+    "included_item_names": [
+      "mainInfo",
+      "entityOne",
+      "*",
+      "strGdConsItmNm"
+    ]
+  },
+  "TicketReceiptResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "receipt_infos",
+      "receipt_info"
+    ]
+  },
+  "TicketReceipt": {
+    "travel_date": [
+      "h_abrd_dt"
+    ],
+    "departure_station": [
+      "h_dpt_rs_stn_nm"
+    ],
+    "departure_time": [
+      "h_dpt_tm"
+    ],
+    "arrival_station": [
+      "h_arv_rs_stn_nm"
+    ],
+    "arrival_time": [
+      "h_arv_tm"
+    ],
+    "commuter_kind_code": [
+      "h_cmtr_knd_cd"
+    ],
+    "journey_type_code": [
+      "h_jrny_tp_cd"
+    ],
+    "printed_discount_name": [
+      "h_prt_disc_knd_nm"
+    ],
+    "printed_discount_kind_code": [
+      "h_prt_disc_knd_cd"
+    ],
+    "print_type": [
+      "h_prt_type"
+    ],
+    "seat_class_name": [
+      "h_psrm_cl_nm"
+    ],
+    "ticket_kind_code": [
+      "h_tk_knd_cd"
+    ],
+    "ticket_kind_name": [
+      "h_tk_knd_nm"
+    ],
+    "ticket_status_code": [
+      "h_tk_stt_cd"
+    ],
+    "train_class_code": [
+      "h_trn_clsf_cd"
+    ],
+    "train_class_name": [
+      "h_trn_clsf_nm"
+    ],
+    "train_group_code": [
+      "h_trn_gp_cd"
+    ],
+    "train_no": [
+      "h_trn_no"
+    ],
+    "received_amount": [
+      "h_rcvd_amt"
+    ],
+    "card_refund_amount": [
+      "h_crd_ret_amt"
+    ],
+    "refund_fee": [
+      "h_ret_fee"
+    ],
+    "refund_received_amount": [
+      "h_ret_rcvd_amt"
+    ],
+    "point_refund_amount": [
+      "h_xpoint_ret_amt"
+    ],
+    "payments": [
+      "stl_info"
+    ],
+    "cash_receipts": [
+      "cash_rcet_info"
+    ],
+    "member_card_no": [
+      "h_stl_mb_crd_no"
+    ]
+  },
+  "ReceiptPayment": {
+    "payment_method": [
+      "h_stl_way_nm"
+    ],
+    "approval_date": [
+      "h_apv_dt"
+    ],
+    "installment_months": [
+      "h_ismt_mnth_num"
+    ],
+    "amount": [
+      "h_stl_amt"
+    ],
+    "account_no": [
+      "h_acnt_no"
+    ],
+    "approval_no": [
+      "h_apv_no"
+    ],
+    "card_no": [
+      "h_stl_crd_no"
+    ],
+    "point_no": [
+      "h_xpot_no"
+    ]
+  },
+  "ReceiptCashPayment": {
+    "approval_method_name": [
+      "h_apv_mtd_nm"
+    ],
+    "authentication_domain_recognition_no": [
+      "h_athn_dmn_rcgn_no"
+    ],
+    "cash_receipt_approval_no": [
+      "h_cash_rcet_apv_no"
+    ],
+    "cash_receipt_transaction_division_code": [
+      "h_cash_rcet_txn_dv_cd"
+    ],
+    "total_approved_amount": [
+      "h_tot_apv_amt"
+    ]
+  },
+  "ReservationHistoryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "journeys": [
+      "jrny_infos",
+      "jrny_info"
+    ],
+    "items": [
+      "jrny_infos",
+      "jrny_info",
+      "*",
+      "train_infos",
+      "train_info"
+    ]
+  },
+  "ReservationHistoryJourney": {
+    "trains": [
+      "train_infos",
+      "train_info"
+    ]
+  },
+  "ReservationHistoryTrain": {
+    "train_no": [
+      "h_trn_no"
+    ],
+    "pnr_no": [
+      "h_pnr_no"
+    ]
+  },
+  "TrainScheduleItem": {
+    "train_no": [
+      "h_trn_no"
+    ],
+    "train_sequence": [
+      "h_trn_seq"
+    ],
+    "train_group_code": [
+      "h_trn_gp_cd"
+    ],
+    "train_class_code": [
+      "h_trn_clsf_cd"
+    ],
+    "run_date": [
+      "h_run_dt"
+    ],
+    "departure_date": [
+      "h_dpt_dt"
+    ],
+    "departure_time": [
+      "h_dpt_tm"
+    ],
+    "arrival_time": [
+      "h_arv_tm"
+    ],
+    "departure_station_code": [
+      "h_dpt_rs_stn_cd"
+    ],
+    "departure_station_name": [
+      "h_dpt_rs_stn_nm"
+    ],
+    "arrival_station_code": [
+      "h_arv_rs_stn_cd"
+    ],
+    "arrival_station_name": [
+      "h_arv_rs_stn_nm"
+    ],
+    "departure_construction_order": [
+      "h_dpt_stn_cons_ordr"
+    ],
+    "arrival_construction_order": [
+      "h_arv_stn_cons_ordr"
+    ],
+    "departure_run_order": [
+      "h_dpt_stn_run_ordr"
+    ],
+    "arrival_run_order": [
+      "h_arv_stn_run_ordr"
+    ]
+  },
+  "SeatAssignmentScheduleResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "next_page_flag": [
+      "h_next_pg_flg"
+    ],
+    "trains": [
+      "trn_infos",
+      "trn_info"
+    ]
+  },
+  "MultiChildDiscountTargetResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "targets": [
+      "fmlyList"
+    ]
+  },
+  "MultiChildDiscountTarget": {
+    "customer_family_name": [
+      "custFmlyNm"
+    ],
+    "family_sequence": [
+      "fmlySqno"
+    ]
+  },
+  "CustomerTripInfoResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "trips": [
+      "mainList"
+    ]
+  },
+  "CustomerTripInfo": {
+    "adult_count": [
+      "adulCnt"
+    ],
+    "departure_station_name": [
+      "dptStnNm"
+    ]
+  },
+  "TripChangeDateResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "last_run_date": [
+      "lastRunDt"
+    ],
+    "trip_change_dates": [
+      "tripChgDates"
+    ]
+  },
+  "DeliveryRecipientResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "acceptance_customer_management_no": [
+      "acepCustMgNo"
+    ],
+    "acceptance_customer_name": [
+      "acepCustNm"
+    ],
+    "acceptance_customer_phone": [
+      "acepCustTeln"
+    ],
+    "member_card_no": [
+      "mbCrdNo"
+    ]
+  },
+  "TicketDuplicationCheckResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "reservation_count": [
+      "rsvCnt"
+    ]
+  },
+  "PbpAcceptanceSpecificationResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "tickets": [
+      "tkList"
+    ]
+  },
+  "PbpAcceptanceTicket": {
+    "pnr_no": [
+      "pnrNo"
+    ],
+    "sale_date": [
+      "saleDt"
+    ],
+    "sale_sequence": [
+      "saleSqno"
+    ],
+    "sale_window_no": [
+      "saleWctNo"
+    ],
+    "return_password": [
+      "tkRetPwd"
+    ],
+    "journeys": [
+      "jrnyList"
+    ]
+  },
+  "PbpAcceptanceJourney": {
+    "acceptance_customer_name": [
+      "acepCustNm"
+    ],
+    "acceptance_customer_phone": [
+      "acepCustTeln"
+    ],
+    "journey_type_code": [
+      "jrnyTpCd"
+    ],
+    "member_division_name": [
+      "mbDvNm"
+    ],
+    "acceptance_kind_name": [
+      "pbpAcepKndNm"
+    ],
+    "pbp_reservation_no": [
+      "pbpRsvNo"
+    ],
+    "registered_date": [
+      "regDt"
+    ],
+    "withdrawal_possible_flag": [
+      "wdrwPsbFlg"
+    ],
+    "seats": [
+      "seatList"
+    ],
+    "member_card_no": [
+      "mbCrdNo"
+    ]
+  },
+  "PbpAcceptanceSeat": {
+    "passenger_type_division_name": [
+      "psgTpDvNm"
+    ],
+    "room_class_code": [
+      "psrmClCd"
+    ],
+    "room_class_name": [
+      "psrmClNm"
+    ],
+    "car_no": [
+      "scarNo"
+    ],
+    "seat_no": [
+      "seatNo"
+    ]
+  },
+  "OriginalTicketInquiryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "tickets": [
+      "orgTkList"
+    ]
+  },
+  "OriginalTicket": {
+    "pnr_no": [
+      "pnrNo"
+    ],
+    "journeys": [
+      "jrnyList"
+    ]
+  },
+  "OriginalTicketJourney": {
+    "train_no": [
+      "trnNo"
+    ],
+    "seats": [
+      "seatList"
+    ]
+  },
+  "OriginalTicketSeat": {
+    "car_no": [
+      "scarNo"
+    ],
+    "seat_no": [
+      "seatNo"
+    ]
+  },
+  "SelfSeatChangeInfoResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "train_no": [
+      "trnNo"
+    ],
+    "stations": [
+      "chgStnList"
+    ],
+    "reasons": [
+      "chgRsnList"
+    ]
+  },
+  "SelfSeatChangeStation": {
+    "departure_station_name": [
+      "dptRsStnNm"
+    ]
+  },
+  "SelfSeatChangeReason": {
+    "query_code": [
+      "qryCode"
+    ]
+  },
+  "RecentDeliveryHistoryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "changed_acceptance_reservation_no": [
+      "chgePbpRsvNo"
+    ],
+    "recipients": [
+      "acepList"
+    ]
+  },
+  "RecentDeliveryRecipient": {
+    "acceptance_customer_management_flag": [
+      "acepCustMgFlg"
+    ],
+    "acceptance_customer_management_no": [
+      "acepCustMgNo"
+    ],
+    "acceptance_customer_name": [
+      "acepCustNm"
+    ],
+    "acceptance_customer_phone": [
+      "acepCustTeln"
+    ],
+    "acceptance_customer_phone_2": [
+      "acepCustTeln2"
+    ],
+    "member_card_no": [
+      "mbCrdNo"
+    ]
+  },
+  "TicketReservationDetailResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "pnr_no": [
+      "h_pnr_no"
+    ],
+    "journeys": [
+      "jrny_infos",
+      "jrny_info"
+    ],
+    "window_no": [
+      "h_wct_no"
+    ],
+    "journey_count": [
+      "h_jrny_cnt"
+    ],
+    "total_price": [
+      "h_tot_prc"
+    ],
+    "total_received_amount": [
+      "h_tot_rcvd_amt"
+    ],
+    "payment_flag": [
+      "h_payment_flg"
+    ],
+    "passengers": [
+      "psg_infos",
+      "psg_info"
+    ]
+  },
+  "ReservationDetailJourney": {
+    "run_date": [
+      "h_run_dt"
+    ],
+    "arrival_date": [
+      "h_arv_dt"
+    ],
+    "seats": [
+      "seat_infos",
+      "seat_info"
+    ],
+    "journey_sequence": [
+      "h_jrny_sqno"
+    ],
+    "reservation_change_no": [
+      "h_rsv_chg_no"
+    ],
+    "train_no": [
+      "h_trn_no"
+    ]
+  },
+  "ReservationSeatDetail": {
+    "seat_no": [
+      "h_seat_no"
+    ],
+    "total_discount_amount": [
+      "h_tot_disc_amt"
+    ],
+    "received_amount": [
+      "h_rcvd_amt"
+    ]
+  },
+  "RefundTicketDetailResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "pnr_no": [
+      "h_pnr_no"
+    ],
+    "qr_code": [
+      "h_qrcode"
+    ],
+    "journeys": [
+      "ticket_infos",
+      "ticket_info"
+    ]
+  },
+  "RefundTicketJourney": {
+    "train_no": [
+      "h_trn_no"
+    ],
+    "seats": [
+      "tk_seat_info"
+    ]
+  },
+  "RefundTicketSeat": {
+    "seat_no": [
+      "h_seat_no"
+    ]
+  },
+  "DelayCertificateResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "delays": [
+      "dlayList"
+    ]
+  },
+  "DelayCertificateRow": {
+    "run_day": [
+      "runDay"
+    ],
+    "train_no": [
+      "trnNo"
+    ],
+    "departure_station_code": [
+      "dptRsStnCd"
+    ],
+    "arrival_station_code": [
+      "arvRsStnCd"
+    ],
+    "arrival_station_name": [
+      "arvRsStnNm"
+    ],
+    "delay_arrival_flag": [
+      "dlayArvFlg"
+    ],
+    "delay_minutes": [
+      "trnDlayTm"
+    ],
+    "run_date": [
+      "runDt"
+    ]
+  },
+  "DelayReturnReceiptResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "return_date": [
+      "retDt"
+    ],
+    "payment_method_name": [
+      "dlayFarePymtMtdNm"
+    ],
+    "return_amount": [
+      "dlayFareRetAmt"
+    ]
+  },
+  "SelfCheckInInfoResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "pnr_no": [
+      "pnrNo"
+    ],
+    "train_no": [
+      "trnNo"
+    ],
+    "departure_station_name": [
+      "dptRsStnNm"
+    ],
+    "departure_time": [
+      "dptTmQb"
+    ],
+    "arrival_station_name": [
+      "arvRsStnNm"
+    ],
+    "arrival_time": [
+      "arvTmQb"
+    ],
+    "car_no": [
+      "scarNo"
+    ],
+    "seat_no": [
+      "seatNo"
+    ],
+    "train_class_name": [
+      "stlbTrnClsfNm"
+    ],
+    "checkin_division_code": [
+      "chcknDvCd"
+    ]
+  },
+  "SelfCheckInSeatCheckResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "seats": [
+      "consList"
+    ]
+  },
+  "SelfCheckInSeat": {
+    "pnr_no": [
+      "pnrNo"
+    ],
+    "journey_sequence": [
+      "jrnySqno"
+    ],
+    "assignment_sequence": [
+      "asgnSqno"
+    ],
+    "run_date": [
+      "runDt"
+    ],
+    "train_no": [
+      "trnNo"
+    ],
+    "departure_construction_order": [
+      "dptStnConsOrdr"
+    ],
+    "departure_station_code": [
+      "dptRsStnCd"
+    ],
+    "arrival_construction_order": [
+      "arvStnConsOrdr"
+    ],
+    "arrival_station_code": [
+      "arvRsStnCd"
+    ],
+    "ticket_kind_code": [
+      "tkKndCd"
+    ],
+    "train_group_code": [
+      "trnGpCd"
+    ],
+    "car_no": [
+      "scarNo"
+    ],
+    "seat_no": [
+      "seatNo"
+    ],
+    "departure_datetime": [
+      "dptDttm"
+    ],
+    "arrival_datetime": [
+      "arvDttm"
+    ],
+    "cps_no": [
+      "cpsNo"
+    ]
+  },
+  "BaseKorailResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ]
+  },
+  "ReservationPassengerInfo": {
+    "passenger_type_code": [
+      "h_psg_tp_cd"
+    ],
+    "passenger_count": [
+      "h_psg_info_per_prnb"
+    ]
+  },
+  "ReservationHoldResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "pnr_no": [
+      "h_pnr_no"
+    ],
+    "journey_count": [
+      "h_jrny_cnt"
+    ],
+    "window_no": [
+      "h_wct_no"
+    ],
+    "temporary_job_sequence_1": [
+      "h_tmp_job_sqno1"
+    ],
+    "temporary_job_sequence_2": [
+      "h_tmp_job_sqno2"
+    ],
+    "payment_flag": [
+      "h_payment_flg"
+    ],
+    "payment_deadline_date": [
+      "h_ntisu_lmt_dt"
+    ],
+    "payment_deadline_time": [
+      "h_ntisu_lmt_tm"
+    ],
+    "total_price": [
+      "h_tot_prc"
+    ],
+    "received_amount": [
+      "h_tot_rcvd_amt"
+    ],
+    "journeys": [
+      "jrny_infos",
+      "jrny_info"
+    ],
+    "passengers": [
+      "psg_infos",
+      "psg_info"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ]
+  },
+  "ReservationJourney": {
+    "journey_sequence": [
+      "h_jrny_sqno"
+    ],
+    "reservation_change_no": [
+      "h_rsv_chg_no"
+    ],
+    "train_no": [
+      "h_trn_no"
+    ]
+  },
+  "ReservationPaymentResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "image_ticket_flag": [
+      "h_im_flg"
+    ],
+    "reservation_no": [
+      "h_rsv_no"
+    ],
+    "total_received_amount": [
+      "h_tot_rcvd_amt"
+    ],
+    "settlement_amount": [
+      "h_stl_amt"
+    ],
+    "coupons": [
+      "tk_coupon_info"
+    ],
+    "tickets": [
+      "tk_infos",
+      "tk_info"
+    ],
+    "settlements": [
+      "stl_infos",
+      "stl_info"
+    ],
+    "table_seats": [
+      "tbl_seat_infos",
+      "tbl_seat_info"
+    ],
+    "settlement_approval_no": [
+      "h_stl_cd_apprv_no"
+    ],
+    "total_settlement_amount": [
+      "h_tot_stl_amt"
+    ],
+    "customer_no": [
+      "h_cust_no"
+    ],
+    "member_card_no": [
+      "h_mb_crd_no"
+    ],
+    "buyer_name": [
+      "h_buy_name"
+    ],
+    "publication_start_no": [
+      "h_publ_start_no"
+    ],
+    "publication_end_no": [
+      "h_publ_end_no"
+    ],
+    "mixed_settlement_division": [
+      "h_mix_stl_dv"
+    ],
+    "cancellation_fee": [
+      "h_cnc_fee"
+    ],
+    "window_no": [
+      "h_wct_no"
+    ],
+    "settlement_count": [
+      "h_stl_cnt"
+    ],
+    "discount_card_count": [
+      "h_disc_card_cnt"
+    ],
+    "total_price": [
+      "h_tot_prc"
+    ],
+    "total_fare": [
+      "h_tot_fare"
+    ],
+    "total_discount_amount": [
+      "h_tot_disc_amt"
+    ],
+    "adult_count": [
+      "h_adult_cnt"
+    ],
+    "child_count": [
+      "h_child_cnt"
+    ],
+    "table_seat_count": [
+      "h_tbl_seat_cnt"
+    ],
+    "ticket_count": [
+      "h_tk_cnt"
+    ],
+    "settlement_type_code": [
+      "h_stl_tp_cd"
+    ],
+    "trade_division": [
+      "h_trade_gbn"
+    ],
+    "remark": [
+      "h_bigo"
+    ],
+    "survey_flag": [
+      "h_survey_flg"
+    ],
+    "survey_title": [
+      "h_survey_title"
+    ],
+    "survey_text": [
+      "h_survey_text"
+    ],
+    "survey_url": [
+      "h_survey_url"
+    ]
+  },
+  "StationDataResponse": {
+    "stations": [
+      "stns",
+      "stn"
+    ],
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ]
+  },
+  "KorailStation": {
+    "code": [
+      "stn_cd"
+    ],
+    "name": [
+      "stn_nm"
+    ],
+    "longitude": [
+      "longitude"
+    ],
+    "latitude": [
+      "latitude"
+    ]
+  },
+  "ProductCancelResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "integrated_message_code": [
+      "intgMsgCd"
+    ]
+  },
+  "ReservationPaymentCoupon": {
+    "coupon_no": [
+      "h_coup_no"
+    ],
+    "certificate_password": [
+      "h_cert_pwd"
+    ],
+    "management_close_date": [
+      "h_fdcert_mg_cls_dt"
+    ],
+    "management_start_date": [
+      "h_fdcert_mg_st_dt"
+    ],
+    "ticket_return_no": [
+      "h_tk_ret_no"
+    ]
+  },
+  "ReservationPaymentTicket": {
+    "ticket_sequence": [
+      "h_tk_sqno"
+    ],
+    "sale_date": [
+      "h_sale_dt"
+    ],
+    "sale_sequence": [
+      "h_sale_sqno"
+    ],
+    "return_password": [
+      "h_tk_ret_pwd"
+    ],
+    "total_received_amount": [
+      "h_tot_rcvd_amt"
+    ],
+    "return_no": [
+      "h_tk_ret_no"
+    ],
+    "recipient_name": [
+      "h_take_name"
+    ],
+    "discount_card_no": [
+      "h_disc_card_no"
+    ],
+    "ticket_price": [
+      "h_tk_prc"
+    ],
+    "ticket_fare": [
+      "h_tk_fare"
+    ],
+    "bz5_fare_discount_amount": [
+      "h_bz5_fare_disc_amt"
+    ],
+    "bz6_fare_discount_amount": [
+      "h_bz6_fare_disc_amt"
+    ],
+    "total_discount_amount": [
+      "h_tot_disc_amt"
+    ],
+    "standard_seat_price_fare": [
+      "h_std_seat_prc_fare"
+    ]
+  },
+  "ReservationPaymentSettlement": {
+    "settlement_result": [
+      "h_stl_rlt"
+    ],
+    "settlement_amount": [
+      "h_stl_amt"
+    ],
+    "approval_time": [
+      "h_apv_tm"
+    ],
+    "settlement_sequence": [
+      "h_stl_sqno"
+    ],
+    "settlement_type_code": [
+      "h_stl_tp_cd"
+    ],
+    "transaction_division": [
+      "h_tr_gubun"
+    ],
+    "card_installment_count": [
+      "h_crd_stl_cnt"
+    ],
+    "installment_months": [
+      "h_inst_month"
+    ],
+    "settlement_card_no": [
+      "h_stl_crd_no"
+    ],
+    "card_company_code": [
+      "h_crd_corp_cd"
+    ],
+    "card_company_name": [
+      "h_crd_corp_nm"
+    ],
+    "approval_date": [
+      "h_apv_dt"
+    ],
+    "approval_no": [
+      "h_apv_no"
+    ],
+    "point_division": [
+      "h_xpoint_dv"
+    ],
+    "point_no": [
+      "h_xpoint_no"
+    ],
+    "point_approval_no": [
+      "h_xpoint_apv_no"
+    ],
+    "remnant_amount": [
+      "h_remnant_amt"
+    ],
+    "remote_point": [
+      "h_rmt_point"
+    ]
+  },
+  "RefundTicketResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "settlement_method_codes": [
+      "stlList",
+      "*",
+      "stl_mns_cd"
+    ]
+  },
+  "StationRefundVerificationResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "received_amount": [
+      "rcvd_amt"
+    ],
+    "refund_fee": [
+      "ret_fee"
+    ],
+    "refund_amount": [
+      "ret_amt"
+    ],
+    "popup_message": [
+      "poppMsg"
+    ],
+    "result_message": [
+      "strMsg"
+    ],
+    "original_tickets": [
+      "orgtkinfo_list"
+    ]
+  },
+  "StationRefundOriginalTicket": {
+    "pnr_no": [
+      "pnr_no"
+    ],
+    "original_sale_date": [
+      "ogtk_sale_dt"
+    ],
+    "original_sale_window_no": [
+      "ogtk_sale_wct_no"
+    ],
+    "original_sale_sequence": [
+      "ogtk_sale_sqno"
+    ],
+    "original_return_password": [
+      "ogtk_ret_pwd"
+    ],
+    "ticket_kind_code": [
+      "tk_knd_cd"
+    ],
+    "refund_division_code": [
+      "ret_dv_cd"
+    ],
+    "refund_reason_code": [
+      "ret_rsn_cd"
+    ]
+  },
+  "StationRefundExecutionResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "refund_division_code": [
+      "h_ret_dv_cd"
+    ]
+  },
+  "CartAddResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "discount_additions": [
+      "psgDiscAdd_infos",
+      "psgDiscAdd_info"
+    ]
+  },
+  "CartDiscountAddition": {
+    "passenger_sequence_no": [
+      "h_psg_sqno"
+    ],
+    "duty_reference_recognition_division_code": [
+      "h_duty_ref_rcgn_ps_dv_cd"
+    ]
+  },
+  "DiscountCardPurchaseResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "lump_settlement_target_no": [
+      "lumpStlTgtNo"
+    ],
+    "discount_card_settlement_target_no": [
+      "dcntCrdStlTgtNo"
+    ],
+    "received_amount": [
+      "rcvdAmt"
+    ],
+    "stx_amount": [
+      "stxAmt"
+    ],
+    "taxt_supply_amount": [
+      "taxtSplAmt"
+    ],
+    "usable_trip_count": [
+      "usePsbTno"
+    ],
+    "validity_start_date": [
+      "vlidTrmStDt"
+    ],
+    "validity_end_date": [
+      "vlidTrmClsDt"
+    ],
+    "registered_card_kind_management_no": [
+      "dcntCrdKndMgNo"
+    ]
+  },
+  "SelfCheckInRegisterResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "message_id": [
+      "msgId"
+    ]
+  },
+  "SelfCheckInCancelResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ]
+  },
+  "DeliveredTicketRetrievalResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "process_flags": [
+      "prsList",
+      "*",
+      "prsFlg"
+    ]
+  },
+  "ReservationPaymentTableSeat": {
+    "room_class_name_1": [
+      "h_psrm_cl_cd_nm1"
+    ],
+    "car_no_1": [
+      "h_srcar_no1"
+    ],
+    "seat_no_start_1": [
+      "h_tbl_seat_no_sno_1"
+    ],
+    "seat_no_end_1": [
+      "h_tbl_seat_no_eno_1"
+    ],
+    "seat_count_1": [
+      "h_tbl_seat_cnt_1"
+    ],
+    "group_name_1": [
+      "h_sgr_nm_1"
+    ],
+    "room_class_name_2": [
+      "h_psrm_cl_cd_nm2"
+    ],
+    "car_no_2": [
+      "h_srcar_no2"
+    ],
+    "seat_no_start_2": [
+      "h_tbl_seat_no_sno_2"
+    ],
+    "seat_no_end_2": [
+      "h_tbl_seat_no_eno_2"
+    ],
+    "seat_count_2": [
+      "h_tbl_seat_cnt_2"
+    ],
+    "group_name_2": [
+      "h_sgr_nm_2"
+    ]
+  },
+  "LimousineScheduleResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "schedules": [
+      "trainList"
+    ],
+    "following_page_extension": [
+      "fllwPgExt"
+    ],
+    "long_short_division_code": [
+      "lgtmShtmDvCd"
+    ]
+  },
+  "LimousineSchedule": {
+    "arrival_date": [
+      "arvDt"
+    ],
+    "arrival_station_code": [
+      "arvRsStnCd"
+    ],
+    "arrival_run_order": [
+      "arvStnRunOrdr"
+    ],
+    "arrival_time": [
+      "arvTm"
+    ],
+    "transfer_division_code": [
+      "chtnDvCd"
+    ],
+    "departure_date": [
+      "dptDt"
+    ],
+    "departure_station_code": [
+      "dptRsStnCd"
+    ],
+    "departure_run_order": [
+      "dptStnRunOrdr"
+    ],
+    "departure_time": [
+      "dptTm"
+    ],
+    "general_remaining_seat_count": [
+      "gnrmRestSeatNum"
+    ],
+    "delay_minutes": [
+      "ocurDlayTnum"
+    ],
+    "free_remaining_seat_count": [
+      "restFresNum"
+    ],
+    "standing_remaining_seat_count": [
+      "restStndNum"
+    ],
+    "run_date": [
+      "runDt"
+    ],
+    "special_remaining_seat_count": [
+      "sprmRestSeatNum"
+    ],
+    "train_class_code": [
+      "stlbTrnClsfCd"
+    ],
+    "service_code": [
+      "trnGpCd"
+    ],
+    "train_no": [
+      "trnNo"
+    ],
+    "train_order_no": [
+      "trnOrdrNo"
+    ],
+    "yms_application_flag": [
+      "ymsAplFlg"
+    ],
+    "received_price": [
+      "rcvdPrc"
+    ]
+  },
+  "LimousineSeatInventoryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "seats": [
+      "seatList"
+    ],
+    "car_type_code": [
+      "car_tp_cd"
+    ],
+    "car_no": [
+      "scar_no"
+    ],
+    "seat_arrangement_code": [
+      "seat_ary_cd"
+    ],
+    "up_down_division_code": [
+      "up_dn_dv_cd"
+    ],
+    "layout_type": [
+      "layout_type"
+    ],
+    "vr_banner_url": [
+      "vrBnrUrl"
+    ]
+  },
+  "LimousineSeat": {
+    "direction_attribute_code": [
+      "dir_seat_att_cd"
+    ],
+    "other_attribute_code": [
+      "etc_seat_att_cd"
+    ],
+    "integrated_message": [
+      "intg_msg"
+    ],
+    "integrated_message_code": [
+      "intg_msg_cd"
+    ],
+    "requested_attribute_code": [
+      "rq_seat_att_cd"
+    ],
+    "sale_possible_flag": [
+      "sale_psb_flg"
+    ],
+    "seat_no": [
+      "seat_no"
+    ],
+    "specification": [
+      "seat_spec"
+    ],
+    "sequence_no": [
+      "sqr_no"
+    ],
+    "visual_message_division_code": [
+      "vz_msg_dv_cd"
+    ]
+  },
+  "SeatWindow": {
+    "start_location_ratio": [
+      "st_loc_rt"
+    ],
+    "close_location_ratio": [
+      "cls_loc_rt"
+    ]
+  },
+  "ServiceStatusResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ]
+  },
+  "TrainScheduleResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "stops": [
+      "dlayList"
+    ],
+    "run_date": [
+      "runDt1"
+    ],
+    "train_no": [
+      "trnNo1"
+    ]
+  },
+  "TransferStationListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "stations": [
+      "chtnList"
+    ]
+  },
+  "TrainCalendarResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "days": [
+      "runningCalendar"
+    ]
+  },
+  "SeatCarListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "recommended_car_no": [
+      "h_rcmd_srcar_no"
+    ],
+    "train_no": [
+      "h_trn_no"
+    ],
+    "car_count": [
+      "h_scar_num"
+    ],
+    "cars": [
+      "srcar_infos",
+      "srcar_info"
+    ]
+  },
+  "SeatInventoryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "layout_type": [
+      "layout_type"
+    ],
+    "arrangement_code": [
+      "seat_ary_cd"
+    ],
+    "total_count": [
+      "seat_total_count"
+    ],
+    "car_no": [
+      "scar_no"
+    ],
+    "seats": [
+      "seatList"
+    ],
+    "windows": [
+      "windowList"
+    ]
+  },
+  "FreeSeatCarResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "title": [
+      "fresTtl"
+    ],
+    "car_no": [
+      "fresScarNo"
+    ],
+    "content": [
+      "fresCont"
+    ]
+  },
+  "GuideSeatConditionResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "time_stamp": [
+      "timeStamp"
+    ]
+  },
+  "MergeSeatsInquiryResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "merge_reservation_possible_flag": [
+      "trn_infos",
+      "h_merge_rsv_psb_flg"
+    ],
+    "run_date": [
+      "runDt"
+    ],
+    "intermediate_stations": [
+      "midStnList"
+    ],
+    "trains": [
+      "trn_infos",
+      "trn_info"
+    ]
+  },
+  "PriceFareQuoteResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "fares": [
+      "prcList"
+    ]
+  },
+  "StationInfoResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "count": [
+      "count"
+    ],
+    "map_version": [
+      "map_version"
+    ]
+  },
+  "AppDataResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "railplus_cardinfo": [
+      "railplus_cardinfo"
+    ],
+    "notice": [],
+    "version": [
+      "version"
+    ]
+  },
+  "UuidResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "verification_code": [
+      "mutMrkVrfCd"
+    ]
+  },
+  "MaasMenuListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "items": [
+      "menuList"
+    ],
+    "departure_elevator_url": [
+      "dElevatorUrl"
+    ]
+  },
+  "MaasServiceDetailListResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "details": [
+      "addSrvList"
+    ]
+  },
+  "TrainSearchMetadata": {
+    "next_page_flag": [
+      "h_next_pg_flg"
+    ],
+    "next_query_station_no": [
+      "h_qry_st_no_next"
+    ],
+    "next_train_no": [
+      "h_trn_no_next"
+    ],
+    "next_preceding_train_no": [
+      "h_prcd_trn_no_next"
+    ],
+    "next_connecting_train_no": [
+      "h_ectb_trn_no_next"
+    ],
+    "result_count": [
+      "h_rslt_cnt"
+    ],
+    "remaining_seat_count": [
+      "h_rslt_cnt"
+    ]
+  },
+  "TrainScheduleStop": {
+    "station_code": [
+      "stopRsStnCd"
+    ],
+    "station_name": [
+      "stopStnNm"
+    ],
+    "actual_arrival_delay_count": [
+      "actArvDlayTnum"
+    ],
+    "actual_departure_time": [
+      "actDptTm"
+    ]
+  },
+  "TransferStation": {
+    "station_code": [
+      "chtnRsStnCd"
+    ],
+    "station_name": [
+      "chtnRsStnNm"
+    ]
+  },
+  "TrainCalendarDay": {
+    "run_date": [
+      "runDt"
+    ],
+    "holiday_division_code": [
+      "hldyDvCd"
+    ],
+    "a_train_operation_flag": [
+      "aTrnOpFlg"
+    ]
+  },
+  "SeatCar": {
+    "car_no": [
+      "h_srcar_no"
+    ],
+    "room_class_name": [
+      "h_psrm_cl_nm"
+    ],
+    "remaining_seat_count": [
+      "h_rest_seat_cnt"
+    ],
+    "total_seat_count": [
+      "h_seat_cnt"
+    ],
+    "attributes": [
+      "srcar_infos",
+      "srcar_info",
+      "*",
+      "seatAttInfos"
+    ]
+  },
+  "SeatAttribute": {
+    "name": [
+      "seatAttNm"
+    ],
+    "code": [
+      "seatAttCd"
+    ]
+  },
+  "PhysicalSeat": {
+    "seat_no": [
+      "seat_no"
+    ],
+    "sale_possible": [
+      "sale_psb_flg"
+    ],
+    "direction_code": [
+      "dir_seat_att_cd"
+    ],
+    "other_attribute_code": [
+      "etc_seat_att_cd"
+    ],
+    "requested_attribute_code": [
+      "rq_seat_att_cd"
+    ],
+    "floor": [
+      "floor"
+    ],
+    "specification": [
+      "seat_spec"
+    ],
+    "sequence_no": [
+      "sqr_no"
+    ],
+    "message_code": [
+      "intg_msg_cd"
+    ],
+    "message": [
+      "intg_msg"
+    ],
+    "visual_message_division_code": [
+      "vz_msg_dv_cd"
+    ]
+  },
+  "IntermediateStation": {
+    "code": [
+      "rsStnCd"
+    ],
+    "name": [
+      "rsStnNm"
+    ],
+    "run_order": [
+      "runOrdr"
+    ]
+  },
+  "PriceFare": {
+    "journey_sequence": [
+      "jrnySqno"
+    ],
+    "room_class_name": [
+      "psrmClNm"
+    ],
+    "received_fare": [
+      "rcvdFare"
+    ],
+    "received_price": [
+      "rcvdPrc"
+    ],
+    "total_amount": [
+      "sumAmt"
+    ],
+    "train_no": [
+      "trnNo"
+    ]
+  },
+  "NoticeResponse": {
+    "board_id": [
+      "notice",
+      "BbrdId"
+    ],
+    "post_sequence": [
+      "notice",
+      "PtwtSqno"
+    ],
+    "post_title": [
+      "notice",
+      "PtwtTtl"
+    ],
+    "post_content": [
+      "notice",
+      "PtwtCont"
+    ]
+  },
+  "AppVersionInfo": {
+    "message": [
+      "AMESSAGE"
+    ],
+    "new_version": [
+      "NEWDVERSION"
+    ],
+    "store_url": [
+      "CNTAURL"
+    ]
+  },
+  "MaasMenuItem": {
+    "active": [
+      "active"
+    ],
+    "additional_service_code": [
+      "addSrvDvCd"
+    ],
+    "app_data": [
+      "appData"
+    ],
+    "name": [
+      "name"
+    ],
+    "menu_type": [
+      "type"
+    ]
+  },
+  "MaasServiceDetail": {
+    "additional_service_id": [
+      "addSrvId"
+    ],
+    "request_quantity": [
+      "reqQnty"
+    ],
+    "detail_info": [
+      "detailInfo"
+    ]
+  },
+  "MaasServiceDetailInfo": {
+    "name": [
+      "name"
+    ],
+    "entity_one": [
+      "entityOne"
+    ]
+  },
+  "TravelProductSearchResponse": {
+    "h_msg_cd": [
+      "h_msg_cd"
+    ],
+    "h_msg_txt": [
+      "h_msg_txt"
+    ],
+    "str_result": [
+      "strResult"
+    ],
+    "products": [
+      "lst",
+      "gdList"
+    ],
+    "query_count": [
+      "lst",
+      "qryCnt"
+    ],
+    "page_count": [
+      "lst",
+      "pgCnt"
+    ]
+  },
+  "TravelProduct": {
+    "goods_no": [
+      "gdNo"
+    ],
+    "representative_fare": [
+      "gdRepFare"
+    ]
+  }
+}

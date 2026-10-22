@@ -1,0 +1,32 @@
+{
+  "inquiry": {
+    "name": "inquiry",
+    "action": "act_8",
+    "success_only": false
+  },
+  "peak_season_inquiry": {
+    "name": "peak_season_inquiry",
+    "action": "act_8_2",
+    "success_only": false
+  },
+  "product_inquiry": {
+    "name": "product_inquiry",
+    "action": "act_6",
+    "success_only": false
+  },
+  "reserve": {
+    "name": "reserve",
+    "action": "act_14",
+    "success_only": true
+  },
+  "pay": {
+    "name": "pay",
+    "action": "act_18",
+    "success_only": true
+  },
+  "reservation_view": {
+    "name": "reservation_view",
+    "action": "act_21",
+    "success_only": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "get_guide_seat_condition": [
+    "WRT800091",
+    "WRD000016",
+    "WRT100192",
+    "MRT200648",
+    "WRG000000",
+    "P114",
+    "P100",
+    "IRT200279",
+    "WRG500116",
+    "WRT200125",
+    "IRZ000005",
+    "IRR800002",
+    "ERR000100",
+    "WRS600209",
+    "WRC000256",
+    "WRS600208",
+    "WRT300003",
+    "WRT300005",
+    "WRS600210",
+    "WRC000008",
+    "WRT800083",
+    "WRD000061"
+  ],
+  "get_discount_coupons": [
+    "WRG000000"
+  ],
+  "get_pass_schedule": [
+    "WRG000000"
+  ],
+  "get_reservation_history": [
+    "P100"
+  ]
+}

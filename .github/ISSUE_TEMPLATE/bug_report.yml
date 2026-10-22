@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible client issue without sensitive data.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, cookies, tokens, passenger details, payment data or unredacted responses. Use synthetic examples.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, OS, package revision and transport profile.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Provide synthetic inputs, the public method used and the observed error type.
+      render: python
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

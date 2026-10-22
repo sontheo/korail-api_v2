@@ -1,0 +1,8 @@
+{
+  "app_version": "7.0.10",
+  "resource": "assets/error_json.json",
+  "sha256": "7b7998f2582217aba20e58a722b3640a6ef3a2751d9816aaf2f78cfc97c74d00",
+  "code_count": 12430,
+  "translation_count": 19381,
+  "origin": "KORAIL application message resource; not maintainer-authored text"
+}

@@ -1,0 +1,22 @@
+# Explicit allowlist: historical code and comparison tools are not release inputs.
+global-exclude *
+include pyproject.toml MANIFEST.in LICENSE NOTICE LEGAL.md README.md
+include PROVENANCE.md VALIDATION.md ARCHITECTURE.md CHANGELOG.md THIRD_PARTY_NOTICES.md
+recursive-include licenses *.LICENSE *.NOTICE
+recursive-include src/korail_api *.py *.pyi py.typed *.json
+recursive-include src/korail_mobile_api *.py *.pyi py.typed
+recursive-include tests *.py
+recursive-include tests/fixtures *.json
+include tools/packaging/check_artifacts.py tools/catalog/import_messages.py
+prune reference
+prune analysis
+prune .git
+prune .github
+prune build
+prune dist
+prune .pytest_cache
+prune .ruff_cache
+global-exclude __pycache__ *.py[cod] .DS_Store
+global-exclude *.apk *.apks *.aab *.dex *.so *.dll *.dylib
+global-exclude *.pem *.key *.p12 *.pfx *.jks *.keystore
+global-exclude .env .env.* *.env .pypirc *credentials* *credential* *secrets*

@@ -1,0 +1,310 @@
+{
+  "TrainSummary.from_raw": {
+    "module": "models",
+    "result": "TrainSummary"
+  },
+  "parse_ticket_list_response": {
+    "module": "_read_ticket_parsers",
+    "result": "TicketListResponse"
+  },
+  "parse_refund_commission_response": {
+    "module": "_read_ticket_parsers",
+    "result": "RefundCommissionResponse"
+  },
+  "parse_cart_list_response": {
+    "module": "_read_account_parsers",
+    "result": "CartListResponse"
+  },
+  "parse_deposit_bank_response": {
+    "module": "_read_account_parsers",
+    "result": "DepositBankListResponse"
+  },
+  "parse_delay_discount_ticket_response": {
+    "module": "_read_account_parsers",
+    "result": "DelayDiscountTicketListResponse"
+  },
+  "parse_discount_coupon_response": {
+    "module": "_read_account_parsers",
+    "result": "DiscountCouponListResponse"
+  },
+  "parse_korail_point_summary_response": {
+    "module": "_read_account_parsers",
+    "result": "KorailPointSummaryResponse"
+  },
+  "parse_mileage_history_response": {
+    "module": "_read_account_parsers",
+    "result": "MileageHistoryResponse"
+  },
+  "parse_discount_card_usage_response": {
+    "module": "_read_pass_parsers",
+    "result": "DiscountCardUsageListResponse"
+  },
+  "parse_discount_card_schedule_response": {
+    "module": "_read_pass_parsers",
+    "result": "DiscountCardScheduleResponse"
+  },
+  "parse_pass_availability_response": {
+    "module": "_read_pass_parsers",
+    "result": "PassAvailabilityResponse"
+  },
+  "parse_pass_schedule_response": {
+    "module": "_read_pass_parsers",
+    "result": "PassScheduleResponse"
+  },
+  "parse_trip_menu_response": {
+    "module": "_read_account_parsers",
+    "result": "TripMenuResponse"
+  },
+  "parse_pass_menu_response": {
+    "module": "_read_pass_parsers",
+    "result": "PassMenuResponse"
+  },
+  "parse_crew_request_list_response": {
+    "module": "_read_account_parsers",
+    "result": "CrewRequestListResponse"
+  },
+  "parse_commuter_kind_menu_response": {
+    "module": "_read_pass_parsers",
+    "result": "CommuterKindMenuResponse"
+  },
+  "parse_commuter_info_response": {
+    "module": "_read_pass_parsers",
+    "result": "CommuterInfoResponse"
+  },
+  "parse_product_reservation_list_response": {
+    "module": "_read_account_parsers",
+    "result": "ProductReservationListResponse"
+  },
+  "parse_product_detail_response": {
+    "module": "_read_account_parsers",
+    "result": "ProductDetailResponse"
+  },
+  "parse_ticket_receipt_response": {
+    "module": "_read_ticket_parsers",
+    "result": "TicketReceiptResponse"
+  },
+  "parse_reservation_history_response": {
+    "module": "_read_ticket_parsers",
+    "result": "ReservationHistoryResponse"
+  },
+  "_parse_train_schedule_item": {
+    "module": "read_parsers",
+    "result": "TrainScheduleItem"
+  },
+  "_parse_train_schedule_container": {
+    "module": "read_parsers",
+    "result": null
+  },
+  "parse_seat_assignment_schedule_response": {
+    "module": "read_parsers",
+    "result": "SeatAssignmentScheduleResponse"
+  },
+  "parse_multi_child_discount_target_response": {
+    "module": "_read_account_parsers",
+    "result": "MultiChildDiscountTargetResponse"
+  },
+  "parse_customer_trip_info_response": {
+    "module": "_read_account_parsers",
+    "result": "CustomerTripInfoResponse"
+  },
+  "parse_trip_change_date_response": {
+    "module": "_read_account_parsers",
+    "result": "TripChangeDateResponse"
+  },
+  "parse_delivery_recipient_response": {
+    "module": "_read_ticket_parsers",
+    "result": "DeliveryRecipientResponse"
+  },
+  "parse_ticket_duplication_check_response": {
+    "module": "_read_ticket_parsers",
+    "result": "TicketDuplicationCheckResponse"
+  },
+  "parse_pbp_acceptance_specification_response": {
+    "module": "_read_ticket_parsers",
+    "result": "PbpAcceptanceSpecificationResponse"
+  },
+  "parse_original_ticket_inquiry_response": {
+    "module": "_read_ticket_parsers",
+    "result": "OriginalTicketInquiryResponse"
+  },
+  "parse_self_seat_change_info_response": {
+    "module": "_read_ticket_parsers",
+    "result": "SelfSeatChangeInfoResponse"
+  },
+  "parse_recent_delivery_history_response": {
+    "module": "_read_ticket_parsers",
+    "result": "RecentDeliveryHistoryResponse"
+  },
+  "parse_ticket_reservation_detail_response": {
+    "module": "_read_ticket_parsers",
+    "result": "TicketReservationDetailResponse"
+  },
+  "parse_refund_ticket_detail_response": {
+    "module": "_read_ticket_parsers",
+    "result": "RefundTicketDetailResponse"
+  },
+  "parse_delay_certificate_response": {
+    "module": "_read_ticket_parsers",
+    "result": "DelayCertificateResponse"
+  },
+  "parse_delay_return_receipt_response": {
+    "module": "_read_ticket_parsers",
+    "result": "DelayReturnReceiptResponse"
+  },
+  "parse_self_checkin_info_response": {
+    "module": "_read_ticket_parsers",
+    "result": "SelfCheckInInfoResponse"
+  },
+  "parse_self_checkin_seat_check_response": {
+    "module": "_read_ticket_parsers",
+    "result": "SelfCheckInSeatCheckResponse"
+  },
+  "BaseKorailResponse.from_raw": {
+    "module": "models",
+    "result": "BaseKorailResponse"
+  },
+  "parse_reservation_hold_response": {
+    "module": "mutation_parsers",
+    "result": "ReservationHoldResponse"
+  },
+  "parse_existing_reservation_hold_response": {
+    "module": "mutation_parsers",
+    "result": "ReservationHoldResponse"
+  },
+  "parse_reservation_payment_response": {
+    "module": "mutation_parsers",
+    "result": "ReservationPaymentResponse"
+  },
+  "_parse_mutation_response": {
+    "module": "client",
+    "result": "ReservationPaymentResponse"
+  },
+  "parse_station_data_response": {
+    "module": "parsers",
+    "result": "StationDataResponse"
+  },
+  "parse_train_rows": {
+    "module": "parsers",
+    "result": null
+  },
+  "parse_train_search_metadata": {
+    "module": "parsers",
+    "result": "TrainSearchMetadata"
+  },
+  "parse_product_cancel_response": {
+    "module": "mutation_parsers",
+    "result": "ProductCancelResponse"
+  },
+  "parse_refund_ticket_response": {
+    "module": "mutation_parsers",
+    "result": "RefundTicketResponse"
+  },
+  "parse_station_refund_verification_response": {
+    "module": "mutation_parsers",
+    "result": "StationRefundVerificationResponse"
+  },
+  "parse_station_refund_execution_response": {
+    "module": "mutation_parsers",
+    "result": "StationRefundExecutionResponse"
+  },
+  "parse_cart_add_response": {
+    "module": "mutation_parsers",
+    "result": "CartAddResponse"
+  },
+  "parse_discount_card_purchase_response": {
+    "module": "mutation_parsers",
+    "result": "DiscountCardPurchaseResponse"
+  },
+  "parse_self_checkin_register_response": {
+    "module": "mutation_parsers",
+    "result": "SelfCheckInRegisterResponse"
+  },
+  "parse_self_checkin_cancel_response": {
+    "module": "mutation_parsers",
+    "result": "SelfCheckInCancelResponse"
+  },
+  "parse_delivered_ticket_retrieval_response": {
+    "module": "mutation_parsers",
+    "result": "DeliveredTicketRetrievalResponse"
+  },
+  "parse_limousine_schedule_response": {
+    "module": "limousine_parsers",
+    "result": "LimousineScheduleResponse"
+  },
+  "parse_limousine_seat_inventory_response": {
+    "module": "limousine_parsers",
+    "result": "LimousineSeatInventoryResponse"
+  },
+  "parse_service_status_response": {
+    "module": "_read_account_parsers",
+    "result": "ServiceStatusResponse"
+  },
+  "parse_train_schedule_response": {
+    "module": "parsers",
+    "result": "TrainScheduleResponse"
+  },
+  "parse_transfer_station_list_response": {
+    "module": "parsers",
+    "result": "TransferStationListResponse"
+  },
+  "parse_train_calendar_response": {
+    "module": "parsers",
+    "result": "TrainCalendarResponse"
+  },
+  "parse_seat_car_list_response": {
+    "module": "parsers",
+    "result": "SeatCarListResponse"
+  },
+  "parse_seat_inventory_response": {
+    "module": "parsers",
+    "result": "SeatInventoryResponse"
+  },
+  "parse_free_seat_car_response": {
+    "module": "read_parsers",
+    "result": "FreeSeatCarResponse"
+  },
+  "parse_guide_seat_condition_response": {
+    "module": "read_parsers",
+    "result": "GuideSeatConditionResponse"
+  },
+  "parse_merge_seats_inquiry_response": {
+    "module": "read_parsers",
+    "result": "MergeSeatsInquiryResponse"
+  },
+  "parse_price_fare_quote_response": {
+    "module": "read_parsers",
+    "result": "PriceFareQuoteResponse"
+  },
+  "parse_station_info_response": {
+    "module": "parsers",
+    "result": "StationInfoResponse"
+  },
+  "parse_app_data_response": {
+    "module": "parsers",
+    "result": "AppDataResponse"
+  },
+  "parse_uuid_response": {
+    "module": "parsers",
+    "result": "UuidResponse"
+  },
+  "parse_maas_menu_list_response": {
+    "module": "parsers",
+    "result": "MaasMenuListResponse"
+  },
+  "parse_maas_service_detail_list_response": {
+    "module": "_read_account_parsers",
+    "result": "MaasServiceDetailListResponse"
+  },
+  "parse_notice_response": {
+    "module": "parsers",
+    "result": "NoticeResponse"
+  },
+  "parse_station_name_map": {
+    "module": "parsers",
+    "result": null
+  },
+  "parse_travel_product_search_response": {
+    "module": "_read_account_parsers",
+    "result": "TravelProductSearchResponse"
+  }
+}

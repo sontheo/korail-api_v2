@@ -1,0 +1,342 @@
+{
+  "login": {
+    "session": false,
+    "customer": false
+  },
+  "logout": {
+    "session": false,
+    "customer": false
+  },
+  "clear_session": {
+    "session": false,
+    "customer": false
+  },
+  "close": {
+    "session": false,
+    "customer": false
+  },
+  "search_trains": {
+    "session": false,
+    "customer": false
+  },
+  "search_transfer_trains": {
+    "session": false,
+    "customer": false
+  },
+  "search_trains_with_transfer_fallback": {
+    "session": false,
+    "customer": false
+  },
+  "get_train_schedule": {
+    "session": false,
+    "customer": false
+  },
+  "get_transfer_stations": {
+    "session": false,
+    "customer": false
+  },
+  "get_train_calendar": {
+    "session": false,
+    "customer": false
+  },
+  "get_seat_cars": {
+    "session": true,
+    "customer": false
+  },
+  "get_seat_inventory": {
+    "session": true,
+    "customer": false
+  },
+  "get_free_seat_car_info": {
+    "session": false,
+    "customer": false
+  },
+  "get_guide_seat_condition": {
+    "session": false,
+    "customer": false
+  },
+  "get_merge_seats_inquiry": {
+    "session": false,
+    "customer": false
+  },
+  "get_price_fare_quote": {
+    "session": false,
+    "customer": false
+  },
+  "get_station_info": {
+    "session": false,
+    "customer": false
+  },
+  "get_station_data": {
+    "session": false,
+    "customer": false
+  },
+  "get_common_code": {
+    "session": false,
+    "customer": false
+  },
+  "get_app_data": {
+    "session": false,
+    "customer": false
+  },
+  "get_notice": {
+    "session": false,
+    "customer": false
+  },
+  "get_uuid": {
+    "session": false,
+    "customer": false
+  },
+  "get_service_status": {
+    "session": false,
+    "customer": false
+  },
+  "get_maas_menu_list": {
+    "session": false,
+    "customer": false
+  },
+  "get_maas_station_data": {
+    "session": false,
+    "customer": false
+  },
+  "get_maas_service_details": {
+    "session": true,
+    "customer": false
+  },
+  "get_cart_list": {
+    "session": true,
+    "customer": false
+  },
+  "get_deposit_banks": {
+    "session": true,
+    "customer": false
+  },
+  "get_delay_discount_tickets": {
+    "session": true,
+    "customer": false
+  },
+  "get_discount_coupons": {
+    "session": true,
+    "customer": false
+  },
+  "get_korail_point_summary": {
+    "session": true,
+    "customer": false
+  },
+  "get_mileage_history": {
+    "session": true,
+    "customer": false
+  },
+  "get_discount_card_usage_history": {
+    "session": true,
+    "customer": false
+  },
+  "get_discount_card_schedule": {
+    "session": true,
+    "customer": false
+  },
+  "get_pass_available_dates": {
+    "session": false,
+    "customer": false
+  },
+  "get_pass_schedule": {
+    "session": true,
+    "customer": false
+  },
+  "get_trip_menu": {
+    "session": true,
+    "customer": false
+  },
+  "get_pass_menu": {
+    "session": false,
+    "customer": false
+  },
+  "get_crew_request_list": {
+    "session": false,
+    "customer": false
+  },
+  "get_commuter_kind_menu": {
+    "session": false,
+    "customer": false
+  },
+  "get_commuter_info": {
+    "session": true,
+    "customer": false
+  },
+  "get_product_reservations": {
+    "session": true,
+    "customer": false
+  },
+  "get_product_detail": {
+    "session": true,
+    "customer": false
+  },
+  "get_ticket_receipt": {
+    "session": true,
+    "customer": false
+  },
+  "get_reservation_history": {
+    "session": true,
+    "customer": false
+  },
+  "get_seat_assignment_schedule": {
+    "session": false,
+    "customer": false
+  },
+  "get_multi_child_discount_targets": {
+    "session": true,
+    "customer": false
+  },
+  "get_customer_trip_info": {
+    "session": true,
+    "customer": true
+  },
+  "get_trip_change_dates": {
+    "session": true,
+    "customer": false
+  },
+  "get_delivery_recipient": {
+    "session": true,
+    "customer": false
+  },
+  "check_ticket_duplication": {
+    "session": true,
+    "customer": false
+  },
+  "get_pbp_acceptance_specifications": {
+    "session": true,
+    "customer": false
+  },
+  "get_original_ticket_inquiry": {
+    "session": true,
+    "customer": false
+  },
+  "get_self_seat_change_info": {
+    "session": true,
+    "customer": false
+  },
+  "get_recent_delivery_history": {
+    "session": true,
+    "customer": true
+  },
+  "get_ticket_reservation_detail": {
+    "session": true,
+    "customer": false
+  },
+  "get_reservation_hold": {
+    "session": true,
+    "customer": false
+  },
+  "get_refund_commission": {
+    "session": true,
+    "customer": false
+  },
+  "get_refund_ticket_detail": {
+    "session": true,
+    "customer": false
+  },
+  "get_ticket_list": {
+    "session": true,
+    "customer": false
+  },
+  "get_delay_certificate": {
+    "session": true,
+    "customer": false
+  },
+  "get_delay_return_receipt": {
+    "session": true,
+    "customer": false
+  },
+  "retrieve_delivered_ticket": {
+    "session": true,
+    "customer": false
+  },
+  "get_self_checkin_info": {
+    "session": true,
+    "customer": false
+  },
+  "check_self_checkin_seat": {
+    "session": true,
+    "customer": false
+  },
+  "register_self_checkin": {
+    "session": true,
+    "customer": false
+  },
+  "cancel_self_checkin": {
+    "session": true,
+    "customer": false
+  },
+  "reserve": {
+    "session": true,
+    "customer": false
+  },
+  "reserve_transfer": {
+    "session": true,
+    "customer": false
+  },
+  "reserve_merge": {
+    "session": true,
+    "customer": false
+  },
+  "reserve_with_discount_card": {
+    "session": true,
+    "customer": false
+  },
+  "confirm_standby_hold": {
+    "session": true,
+    "customer": false
+  },
+  "cancel_unpaid_hold": {
+    "session": true,
+    "customer": false
+  },
+  "cancel_product_reservation": {
+    "session": true,
+    "customer": false
+  },
+  "pay_with_card": {
+    "session": true,
+    "customer": false
+  },
+  "refund": {
+    "session": true,
+    "customer": false
+  },
+  "verify_station_ticket_refund": {
+    "session": true,
+    "customer": false
+  },
+  "execute_station_ticket_refund": {
+    "session": true,
+    "customer": false
+  },
+  "add_to_cart": {
+    "session": true,
+    "customer": false
+  },
+  "register_discount_card": {
+    "session": true,
+    "customer": false
+  },
+  "extend_discount_card": {
+    "session": true,
+    "customer": false
+  },
+  "recalculate_price": {
+    "session": true,
+    "customer": false
+  },
+  "get_limousine_schedules": {
+    "session": false,
+    "customer": false
+  },
+  "get_limousine_seat_inventory": {
+    "session": false,
+    "customer": false
+  },
+  "reserve_limousine": {
+    "session": true,
+    "customer": false
+  }
+}

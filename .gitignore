@@ -1,0 +1,67 @@
+# Local analysis workspaces and the APKs they are unpacked from. Never
+# distributed: the app binaries are not ours to redistribute, and the unpacked
+# trees carry the vendor keys this repository redacts.
+#
+# Anchored, for the same reason `.env` below is: an unanchored `analysis/`
+# matches at any depth, and would swallow any nested directory of that name
+# without a word.
+/analysis/
+*.apk
+
+# Local secrets at any depth. Examples must contain placeholders only.
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.ppk
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+.pypirc
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+
+# Build artifacts. A stray build tree left in the checkout does not just
+# clutter `git status`; it can end up inside an sdist.
+build/
+dist/
+*.egg-info/
+
+# Python scratch.
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+
+# Docs site build output (mkdocs build).
+/site/
+
+# Agent worktrees and local tool state — never part of the package.
+.worktrees/
+.superpowers/
+.claude/
+
+.DS_Store
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+.venv/
+.venv-*/
+.ignore
+
+.playwright-cli/

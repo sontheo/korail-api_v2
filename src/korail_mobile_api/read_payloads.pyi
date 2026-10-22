@@ -1,0 +1,3 @@
+from korail_api.models.records import *
+
+def build_self_seat_change_info_form(request: SelfSeatChangeInfoRequest) -> dict[str, str]: ...

@@ -1,0 +1,29 @@
+korail-api
+Copyright 2026 thsqaz123-dot
+
+The maintainer offers only material they have authority to license under
+Apache License 2.0. This unofficial project is not affiliated with KORAIL.
+
+Historical compatibility reference:
+korail-mobile-api — https://github.com/yakisoba0728/korail-mobile-api
+Copyright 2026 yakisoba0728; Apache License, Version 2.0.
+Historical base: v2.5.0, commit 7df252357a7fd391db553fdaa012036406fec62d.
+The historical license and fork NOTICE are retained in licenses/.
+Source was visible during development. This notice makes no strict clean-room
+or attribution-exemption claim; the earlier Python implementation is not bundled.
+
+Changes in this implementation include separate schema-driven request and
+response engines, generated value objects, service and transport boundaries,
+compatibility adapters, token serialization, endpoint URL reuse, failure-context
+preservation, independent tests, packaging and English documentation.
+
+Bundled vendor message text in src/korail_api/resources/messages/ was extracted
+from a local KORAIL application resource labeled 7.0.10. It is third-party text,
+not maintainer-authored work. No separate redistribution permission has been
+established. Extraction and attribution are not a rights grant.
+
+httpx, cryptography and curl_cffi are separate dependencies subject to their own
+licenses. KORAIL and other third-party marks belong to their respective owners.
+
+See LEGAL.md, THIRD_PARTY_NOTICES.md and PROVENANCE.md for scope, source details,
+redistribution conditions and limits. This NOTICE does not modify Apache-2.0.

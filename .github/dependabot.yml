@@ -1,0 +1,42 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    exclude-paths:
+      - docs/**
+      - .github/**
+      - reference/**
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    groups:
+      python-dependencies:
+        applies-to: security-updates
+        patterns: ['*']
+  - package-ecosystem: pip
+    directory: /docs
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    groups:
+      documentation-dependencies:
+        applies-to: security-updates
+        patterns: ['*']
+  - package-ecosystem: pip
+    directory: /.github
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    groups:
+      audit-tooling:
+        applies-to: security-updates
+        patterns: ['*']
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    groups:
+      ci-actions:
+        applies-to: security-updates
+        patterns: ['*']

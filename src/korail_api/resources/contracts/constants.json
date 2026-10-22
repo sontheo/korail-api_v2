@@ -1,0 +1,89 @@
+{
+  "KORAIL_BASE_URL": "https://smart.letskorail.com",
+  "KORAIL_DEVICE_ANDROID": "AD",
+  "KORAIL_API_VERSION": "250601003",
+  "KORAIL_APP_VERSION": "7.0.10",
+  "KORAIL_APP_KEY": "korail1234567890",
+  "KORAIL_TIMEOUT_SECONDS": 60.0,
+  "KORAIL_DEFAULT_DEVICE_NAME": "SM-S948N",
+  "KORAIL_DEFAULT_ANDROID_OS_RELEASE": "17",
+  "KORAIL_DEFAULT_ANDROID_BUILD_ID": "CP2A.260605.016",
+  "KORAIL_DEFAULT_DEVICE_WIDTH": 1440,
+  "KORAIL_DEFAULT_DEVICE_HEIGHT": 3120,
+  "KORAIL_DEFAULT_ANDROID_SDK_INT": 37,
+  "KORAIL_API_USER_AGENT": "korailtalk",
+  "KORAIL_USER_AGENT": "Dalvik/2.1.0 (Linux; U; Android 17; SM-S948N Build/CP2A.260605.016)",
+  "KORAIL_COMMON_CODE_BOOTSTRAP_CODES": {
+    "sequence": "tuple",
+    "items": [
+      "app.display.image",
+      "app.menu.railpoint",
+      "app.main.popup",
+      "app.easyLogin.isShow",
+      "app.korail.boss",
+      "app.menu.buynow",
+      "app.menu.lost112",
+      "app.event.easyPay",
+      "app.hndy.athn",
+      "app.view.visibility",
+      "app.menu.biz",
+      "app.event.point",
+      "app.var.data",
+      "app.login.cphd",
+      "app.illegal.report",
+      "app.holiday.popup",
+      "app.MaaS.test",
+      "app.limousine.mainMsg"
+    ]
+  },
+  "KORAIL_STANDBY_WAIT_FLAG": " 9",
+  "KORAIL_MAX_DISCOUNT_CARD_SECTIONS": 3,
+  "KORAIL_DISCOUNT_CARD_DISCOUNT_CODE": "153",
+  "KORAIL_DISCOUNT_CARD_MENU_ID": "A2",
+  "KORAIL_MAX_PASSENGERS_PER_RESERVATION": 9,
+  "KORAIL_DIRECT_ITINERARY_CODE": "1",
+  "KORAIL_TRANSFER_ITINERARY_CODE": "2",
+  "KORAIL_DIRECT_JOURNEY_TYPE_CODE": "11",
+  "KORAIL_TRANSFER_JOURNEY_TYPE_CODE": "14",
+  "KORAIL_MERGE_SEAT_FLAGS_BY_CABIN": {
+    "1": {
+      "sequence": "frozenset",
+      "items": [
+        "A",
+        "G"
+      ]
+    },
+    "2": {
+      "sequence": "frozenset",
+      "items": [
+        "A",
+        "S"
+      ]
+    }
+  },
+  "KORAIL_MAX_JOURNEY_LEGS": 2,
+  "KORAIL_NETFUNNEL_URL": "https://nf.letskorail.com",
+  "KORAIL_NETFUNNEL_PATH": "/ts.wseq",
+  "KORAIL_NETFUNNEL_SERVICE_ID": "service_1",
+  "KORAIL_NETFUNNEL_TIMEOUT_SECONDS": 3.0,
+  "KORAIL_NETFUNNEL_RETRY": 1,
+  "DYNAPATH_HEADER_NAME": "x-dynapath-m-token",
+  "KORAIL_LOGIN_PATH": "/classes/com.korail.mobile.login.Login",
+  "DYNAPATH_ALLOWLIST_PATHS": {
+    "sequence": "frozenset",
+    "items": [
+      "/classes/com.korail.mobile.seatMovie.ScheduleViewSpecial",
+      "/classes/com.korail.mobile.login.Login",
+      "/classes/com.korail.mobile.trn.prcFare.do",
+      "/classes/com.korail.mobile.seatMovie.ScheduleView",
+      "/classes/com.korail.mobile.nonMember.NonMemTicket",
+      "/classes/com.korail.mobile.certification.TicketReservation"
+    ]
+  },
+  "DYNAPATH_REQUIRED_PATHS": {
+    "sequence": "frozenset",
+    "items": [
+      "/classes/com.korail.mobile.login.Login"
+    ]
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "search_trains": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "search_transfer_trains": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "search_trains_with_transfer_fallback": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_train_schedule": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_transfer_stations": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_train_calendar": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_seat_cars": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_seat_inventory": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_free_seat_car_info": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_guide_seat_condition": {
+    "require_envelope": true,
+    "raise_on_fail": false
+  },
+  "get_merge_seats_inquiry": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_price_fare_quote": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_station_info": {
+    "require_envelope": false,
+    "raise_on_fail": true
+  },
+  "get_station_data": {
+    "require_envelope": false,
+    "raise_on_fail": true
+  },
+  "get_common_code": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_app_data": {
+    "require_envelope": false,
+    "raise_on_fail": true
+  },
+  "get_notice": {
+    "require_envelope": false,
+    "raise_on_fail": true
+  },
+  "get_uuid": {
+    "require_envelope": false,
+    "raise_on_fail": true
+  },
+  "get_service_status": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_maas_menu_list": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_maas_station_data": {
+    "require_envelope": false,
+    "raise_on_fail": true
+  },
+  "get_maas_service_details": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_cart_list": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_deposit_banks": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_delay_discount_tickets": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_discount_coupons": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_korail_point_summary": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_mileage_history": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_discount_card_usage_history": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_discount_card_schedule": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_pass_available_dates": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_pass_schedule": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_trip_menu": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_pass_menu": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_crew_request_list": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_commuter_kind_menu": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_commuter_info": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_product_reservations": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_product_detail": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_ticket_receipt": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_reservation_history": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_seat_assignment_schedule": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_multi_child_discount_targets": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_customer_trip_info": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_trip_change_dates": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_delivery_recipient": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "check_ticket_duplication": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_pbp_acceptance_specifications": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_original_ticket_inquiry": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_self_seat_change_info": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_recent_delivery_history": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_ticket_reservation_detail": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_reservation_hold": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_refund_commission": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_refund_ticket_detail": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_ticket_list": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_delay_certificate": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_delay_return_receipt": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "retrieve_delivered_ticket": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_self_checkin_info": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "check_self_checkin_seat": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "register_self_checkin": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "cancel_self_checkin": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "reserve": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "reserve_transfer": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "reserve_merge": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "reserve_with_discount_card": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "confirm_standby_hold": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "cancel_unpaid_hold": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "cancel_product_reservation": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "pay_with_card": {
+    "require_envelope": false,
+    "raise_on_fail": false
+  },
+  "refund": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "verify_station_ticket_refund": {
+    "require_envelope": false,
+    "raise_on_fail": true
+  },
+  "execute_station_ticket_refund": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "add_to_cart": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "register_discount_card": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "extend_discount_card": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "recalculate_price": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_limousine_schedules": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "get_limousine_seat_inventory": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  },
+  "reserve_limousine": {
+    "require_envelope": true,
+    "raise_on_fail": true
+  }
+}

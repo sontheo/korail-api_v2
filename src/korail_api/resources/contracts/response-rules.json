@@ -1,0 +1,479 @@
+{
+  "missing_defaults": {
+    "TrainSummary": {
+      "wait_reservation_flag": null,
+      "change_train_sequence": null,
+      "train_group_code": null,
+      "departure_station_code": null,
+      "arrival_station_code": null,
+      "departure_date": null,
+      "departure_time": null,
+      "arrival_time": null,
+      "departure_station_name": null,
+      "arrival_station_name": null,
+      "run_date": null,
+      "train_class_code": null,
+      "departure_run_order": null,
+      "arrival_run_order": null,
+      "departure_construction_order": null,
+      "arrival_construction_order": null,
+      "seat_attribute_code": null,
+      "goods_no": null,
+      "train_sequence": null,
+      "train_no": ""
+    },
+    "DiscountCoupon": {
+      "discount_rate_amount_division_code": null,
+      "weekday_fare_discount": null,
+      "weekend_fare_discount": null,
+      "expiration_date": null
+    },
+    "PassMenuData": {
+      "commuter_kind_code": null,
+      "station_selection": null
+    },
+    "TrainScheduleItem": {
+      "train_sequence": null,
+      "train_group_code": null,
+      "train_class_code": null,
+      "run_date": null,
+      "departure_date": null,
+      "departure_time": null,
+      "arrival_time": null,
+      "departure_station_code": null,
+      "departure_station_name": null,
+      "arrival_station_code": null,
+      "arrival_station_name": null,
+      "departure_construction_order": null,
+      "arrival_construction_order": null,
+      "departure_run_order": null,
+      "arrival_run_order": null
+    },
+    "TicketReservationDetailResponse": {
+      "window_no": null,
+      "journey_count": null,
+      "total_price": null,
+      "total_received_amount": null,
+      "payment_flag": null,
+      "pnr_no": null,
+      "h_msg_txt": null,
+      "h_msg_cd": null
+    },
+    "ReservationDetailJourney": {
+      "journey_sequence": null,
+      "reservation_change_no": null,
+      "train_no": null,
+      "run_date": "",
+      "arrival_date": null
+    },
+    "ReservationSeatDetail": {
+      "received_amount": null,
+      "total_discount_amount": null,
+      "seat_no": null
+    },
+    "TripChangeDateResponse": {
+      "last_run_date": null
+    },
+    "DelayCertificateRow": {
+      "run_date": null
+    },
+    "RecentDeliveryHistoryResponse": {
+      "changed_acceptance_reservation_no": null
+    },
+    "KorailPointSummaryResponse": {
+      "korail_point": null
+    },
+    "MileageHistoryResponse": {
+      "page_count": null
+    },
+    "CommuterKindMenuResponse": {
+      "title": null,
+      "pass_data": null
+    },
+    "ProductReservationListResponse": {
+      "total_count": null
+    },
+    "ProductDetailResponse": {
+      "product_name": null,
+      "cancellation_amount": null
+    },
+    "SeatAssignmentScheduleResponse": {
+      "next_page_flag": null
+    },
+    "TicketDuplicationCheckResponse": {
+      "reservation_count": null
+    },
+    "SelfSeatChangeInfoResponse": {
+      "train_no": null
+    },
+    "RefundCommissionResponse": {
+      "refund_amount": null,
+      "refund_fee": null,
+      "proceed_possible_flag": null
+    },
+    "RefundTicketDetailResponse": {
+      "pnr_no": null,
+      "qr_code": null
+    },
+    "DelayReturnReceiptResponse": {
+      "return_date": null,
+      "payment_method_name": null,
+      "return_amount": null
+    },
+    "DelayCertificateResponse": {
+      "h_msg_cd": null,
+      "h_msg_txt": null
+    },
+    "BaseKorailResponse": {
+      "h_msg_txt": null,
+      "h_msg_cd": null,
+      "str_result": null
+    },
+    "ReservationHoldResponse": {
+      "h_msg_txt": null,
+      "payment_flag": null,
+      "pnr_no": null,
+      "window_no": null,
+      "journey_count": null,
+      "temporary_job_sequence_1": null,
+      "temporary_job_sequence_2": null,
+      "payment_deadline_date": null,
+      "payment_deadline_time": null,
+      "h_msg_cd": null,
+      "total_price": null,
+      "received_amount": null
+    },
+    "ReservationPaymentResponse": {
+      "h_msg_txt": null,
+      "image_ticket_flag": null,
+      "reservation_no": null,
+      "settlement_approval_no": null,
+      "total_received_amount": null,
+      "settlement_amount": null,
+      "total_settlement_amount": null,
+      "customer_no": null,
+      "member_card_no": null,
+      "buyer_name": null,
+      "publication_start_no": null,
+      "publication_end_no": null,
+      "mixed_settlement_division": null,
+      "cancellation_fee": null,
+      "window_no": null,
+      "settlement_count": null,
+      "discount_card_count": null,
+      "total_price": null,
+      "total_fare": null,
+      "total_discount_amount": null,
+      "adult_count": null,
+      "child_count": null,
+      "table_seat_count": null,
+      "ticket_count": null,
+      "settlement_type_code": null,
+      "trade_division": null,
+      "remark": null,
+      "survey_flag": null,
+      "survey_title": null,
+      "survey_text": null,
+      "survey_url": null,
+      "h_msg_cd": null
+    },
+    "ReservationJourney": {
+      "reservation_change_no": null,
+      "train_no": null
+    },
+    "StationDataResponse": {
+      "h_msg_cd": null,
+      "h_msg_txt": null,
+      "str_result": null
+    },
+    "KorailStation": {
+      "longitude": null,
+      "latitude": null,
+      "code": "",
+      "name": ""
+    },
+    "TrainSearchMetadata": {
+      "next_page_flag": null,
+      "next_query_station_no": null,
+      "next_train_no": null,
+      "next_preceding_train_no": null,
+      "next_connecting_train_no": null,
+      "result_count": null,
+      "remaining_seat_count": null
+    },
+    "ReservationPaymentCoupon": {
+      "certificate_password": null,
+      "management_close_date": null,
+      "management_start_date": null,
+      "ticket_return_no": null
+    },
+    "ReservationPaymentTicket": {
+      "return_no": null,
+      "recipient_name": null,
+      "discount_card_no": null,
+      "ticket_price": null,
+      "ticket_fare": null,
+      "bz5_fare_discount_amount": null,
+      "bz6_fare_discount_amount": null,
+      "total_discount_amount": null,
+      "standard_seat_price_fare": null,
+      "ticket_sequence": null,
+      "total_received_amount": null
+    },
+    "ReservationPaymentSettlement": {
+      "settlement_sequence": null,
+      "settlement_type_code": null,
+      "transaction_division": null,
+      "card_installment_count": null,
+      "installment_months": null,
+      "settlement_card_no": null,
+      "card_company_code": null,
+      "card_company_name": null,
+      "approval_date": null,
+      "approval_no": null,
+      "point_division": null,
+      "point_no": null,
+      "point_approval_no": null,
+      "remnant_amount": null,
+      "remote_point": null
+    },
+    "ReservationPaymentTableSeat": {
+      "room_class_name_1": null,
+      "car_no_1": null,
+      "seat_no_start_1": null,
+      "seat_no_end_1": null,
+      "seat_count_1": null,
+      "group_name_1": null,
+      "room_class_name_2": null,
+      "car_no_2": null,
+      "seat_no_start_2": null,
+      "seat_no_end_2": null,
+      "seat_count_2": null,
+      "group_name_2": null
+    },
+    "StationRefundVerificationResponse": {
+      "str_result": null,
+      "popup_message": null,
+      "result_message": null
+    },
+    "LimousineScheduleResponse": {
+      "following_page_extension": null,
+      "long_short_division_code": null,
+      "h_msg_cd": null,
+      "h_msg_txt": null
+    },
+    "LimousineSeatInventoryResponse": {
+      "car_type_code": null,
+      "car_no": null,
+      "seat_arrangement_code": null,
+      "up_down_division_code": null,
+      "layout_type": null,
+      "vr_banner_url": null,
+      "h_msg_cd": null,
+      "h_msg_txt": null
+    },
+    "LimousineSchedule": {
+      "arrival_station_code": null,
+      "arrival_run_order": null,
+      "arrival_time": null,
+      "transfer_division_code": null,
+      "departure_date": null,
+      "departure_station_code": null,
+      "departure_run_order": null,
+      "departure_time": null,
+      "general_remaining_seat_count": null,
+      "delay_minutes": null,
+      "free_remaining_seat_count": null,
+      "standing_remaining_seat_count": null,
+      "run_date": null,
+      "special_remaining_seat_count": null,
+      "train_class_code": null,
+      "service_code": null,
+      "train_no": null,
+      "train_order_no": null,
+      "yms_application_flag": null,
+      "received_price": null,
+      "arrival_date": null
+    },
+    "LimousineSeat": {
+      "other_attribute_code": null,
+      "integrated_message": null,
+      "integrated_message_code": null,
+      "requested_attribute_code": null,
+      "sale_possible_flag": null,
+      "seat_no": null,
+      "specification": null,
+      "sequence_no": null,
+      "visual_message_division_code": null,
+      "direction_attribute_code": null
+    },
+    "SeatWindow": {
+      "start_location_ratio": null,
+      "close_location_ratio": null
+    },
+    "TrainScheduleResponse": {
+      "run_date": null,
+      "train_no": null
+    },
+    "SeatCarListResponse": {
+      "recommended_car_no": null,
+      "train_no": null,
+      "car_count": null
+    },
+    "SeatInventoryResponse": {
+      "total_count": null,
+      "car_no": null,
+      "layout_type": "",
+      "arrangement_code": ""
+    },
+    "FreeSeatCarResponse": {
+      "title": null,
+      "car_no": null,
+      "content": null
+    },
+    "GuideSeatConditionResponse": {
+      "time_stamp": null
+    },
+    "MergeSeatsInquiryResponse": {
+      "merge_reservation_possible_flag": null,
+      "run_date": null
+    },
+    "AppDataResponse": {
+      "railplus_cardinfo": null,
+      "version": null,
+      "h_msg_cd": null,
+      "h_msg_txt": null,
+      "str_result": null
+    },
+    "MaasMenuListResponse": {
+      "departure_elevator_url": null
+    },
+    "ProductCancelResponse": {
+      "integrated_message_code": null
+    },
+    "StationRefundExecutionResponse": {
+      "refund_division_code": null
+    },
+    "DiscountCardPurchaseResponse": {
+      "lump_settlement_target_no": null,
+      "discount_card_settlement_target_no": null,
+      "received_amount": null,
+      "stx_amount": null,
+      "taxt_supply_amount": null,
+      "usable_trip_count": null,
+      "validity_start_date": null,
+      "validity_end_date": null,
+      "registered_card_kind_management_no": null
+    },
+    "PhysicalSeat": {
+      "message_code": "",
+      "message": "",
+      "other_attribute_code": null,
+      "seat_no": "",
+      "sale_possible": "",
+      "direction_code": "",
+      "requested_attribute_code": "",
+      "specification": "",
+      "sequence_no": ""
+    },
+    "StationInfoResponse": {
+      "h_msg_cd": null,
+      "h_msg_txt": null,
+      "str_result": null
+    },
+    "UuidResponse": {
+      "h_msg_cd": null,
+      "h_msg_txt": null,
+      "str_result": null
+    },
+    "TrainScheduleStop": {
+      "station_name": null
+    },
+    "TransferStation": {
+      "station_code": null
+    },
+    "TrainCalendarDay": {
+      "run_date": null
+    },
+    "SeatAttribute": {
+      "code": null,
+      "name": ""
+    },
+    "IntermediateStation": {
+      "run_order": null
+    },
+    "PriceFare": {
+      "total_amount": null
+    },
+    "AppVersionInfo": {
+      "new_version": null
+    },
+    "NoticeResponse": {
+      "post_title": null
+    },
+    "MaasMenuItem": {
+      "additional_service_code": null
+    },
+    "MaasServiceDetail": {
+      "request_quantity": null
+    },
+    "SeatCar": {
+      "car_no": null,
+      "remaining_seat_count": null,
+      "room_class_name": ""
+    },
+    "TravelProductSearchResponse": {
+      "query_count": null,
+      "page_count": null
+    }
+  },
+  "lenient_collections": {
+    "TicketReservationDetailResponse": [
+      "journeys"
+    ],
+    "TrainScheduleResponse": [
+      "stops"
+    ],
+    "TrainCalendarResponse": [
+      "days"
+    ],
+    "MaasMenuListResponse": [
+      "items"
+    ],
+    "MaasServiceDetailListResponse": [
+      "details"
+    ],
+    "PriceFareQuoteResponse": [
+      "fares"
+    ],
+    "MergeSeatsInquiryResponse": [
+      "intermediate_stations"
+    ]
+  },
+  "skip_non_object_rows": {
+    "TicketReservationDetailResponse": [
+      "journeys"
+    ],
+    "ReservationDetailJourney": [
+      "seats"
+    ],
+    "TrainScheduleResponse": [
+      "stops"
+    ],
+    "TrainCalendarResponse": [
+      "days"
+    ],
+    "MaasMenuListResponse": [
+      "items"
+    ],
+    "MaasServiceDetailListResponse": [
+      "details"
+    ],
+    "PriceFareQuoteResponse": [
+      "fares"
+    ],
+    "MergeSeatsInquiryResponse": [
+      "intermediate_stations"
+    ]
+  }
+}
