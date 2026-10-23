@@ -9,7 +9,7 @@ description = "Independent synchronous KORAIL protocol client with compatible Py
 requires-python = ">=3.11"
 authors = [{name = "thsqaz123-dot"}]
 license = "Apache-2.0"
-license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "licenses/*"]
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]
 readme = "README.md"
 dependencies = ["httpx>=0.28.1", "cryptography>=50.0.2", "curl_cffi==0.16.3"]
 

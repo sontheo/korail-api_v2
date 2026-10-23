@@ -22,8 +22,8 @@ def check(wheel: Path, sdist: Path | None = None):
             names = archive.namelist()
             assert any(n.endswith("/licenses/NOTICE") for n in names)
             assert any(n.endswith("/licenses/THIRD_PARTY_NOTICES.md") for n in names)
-            assert any(n.endswith("/licenses/licenses/korail-mobile-api.NOTICE") for n in names)
-            assert any(n.endswith("/licenses/licenses/korail-mobile-api.LICENSE") for n in names)
+            assert any(n.endswith("/licenses/LICENSE") for n in names)
+            assert not any("korail-mobile-api.NOTICE" in n or "korail-mobile-api.LICENSE" in n for n in names)
             assert any(n.endswith("korail_api/models/records.pyi") for n in names)
             assert not any(
                 n.endswith(".apk")
@@ -97,7 +97,11 @@ print(json.dumps({'isolated_wheel': 'passed', 'exports': len(api.__all__), 'pack
             source.mkdir()
             with tarfile.open(sdist) as archive:
                 names = archive.getnames()
-                assert any(n.endswith("/licenses/korail-mobile-api.NOTICE") for n in names)
+                assert any(n.endswith("/LICENSE") for n in names)
+                assert any(n.endswith("/NOTICE") for n in names)
+                assert not any(
+                    "korail-mobile-api.NOTICE" in n or "korail-mobile-api.LICENSE" in n for n in names
+                )
                 assert any(n.endswith("/THIRD_PARTY_NOTICES.md") for n in names)
                 assert not any(
                     "parser-observations" in n
