@@ -4,7 +4,7 @@
 
 # korail-api
 
-> **Legal notice:** This is an unofficial client, unaffiliated with KORAIL. Apache-2.0 covers material the maintainer can license; it grants no service-access or trademark rights. This is not a certified clean-room implementation. Vendor message data has separate rights, and no independent redistribution grant has been established. Read [LEGAL.md](LEGAL.md), [NOTICE](NOTICE), [third-party notices](THIRD_PARTY_NOTICES.md) and [provenance](PROVENANCE.md) before use or redistribution.
+> **Legal notice:** This is an unofficial client, unaffiliated with KORAIL. Apache-2.0 covers material the maintainer can license; it grants no service-access or trademark rights. Vendor message data has separate rights, and no independent redistribution grant has been established. Read [LEGAL.md](LEGAL.md), [NOTICE](NOTICE), [third-party notices](THIRD_PARTY_NOTICES.md) and [provenance](PROVENANCE.md) before use or redistribution.
 
 [![CI](https://github.com/thsqaz123-dot/korail-api_v2/actions/workflows/ci.yml/badge.svg)](https://github.com/thsqaz123-dot/korail-api_v2/actions/workflows/ci.yml)
 [![Security](https://github.com/thsqaz123-dot/korail-api_v2/actions/workflows/security.yml/badge.svg)](https://github.com/thsqaz123-dot/korail-api_v2/actions/workflows/security.yml)
@@ -146,6 +146,6 @@ Tests block network traffic and use synthetic data. See [CONTRIBUTING.md](CONTRI
 
 ## License and provenance
 
-The maintainer-authored software is offered under [Apache-2.0](LICENSE), subject to the scope and notices in [LEGAL.md](LEGAL.md), [NOTICE](NOTICE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Original project attribution is retained. The previous fork and its history are maintained separately and are not included in this repository's Git history.
+The maintainer-authored software is offered under [Apache-2.0](LICENSE), subject to the scope and notices in [LEGAL.md](LEGAL.md), [NOTICE](NOTICE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The previous implementation is not a runtime or build dependency. The previous fork and its history are maintained separately and are not included in this repository's Git history.
 
-Source from the previous implementation was visible during development. Reimplementation, renamed files and a new repository do not establish that all copyright or attribution obligations have ended. Third-party data, dependencies, trademarks and service-access permissions remain separate matters. No live login, reservation, cancellation, payment or refund has been used to validate this development version.
+Development history is recorded in [PROVENANCE.md](PROVENANCE.md). Third-party data, runtime dependencies, trademarks and service-access permissions retain their respective rights. No live login, reservation, cancellation, payment or refund has been used to validate this development version.

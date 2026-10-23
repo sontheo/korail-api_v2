@@ -15,6 +15,7 @@
 - Include standalone tests, typed public declarations, isolated artifact verification and CI.
 - Keep runtime annotation installation compatible with Python 3.14's unified union types.
 - Add English documentation, original banner artwork and explicit legal/provenance notices.
-- Keep the previous implementation and history separately maintained; retain historical attribution in `licenses/`.
+- Keep the previous implementation and history separately maintained.
+- Remove historical reference license copies and attribution from the current distribution; retain notices for bundled data and actual runtime dependencies.
 
 This development version has not been published to PyPI. Historical compatibility validation and live-service validation are distinct; this snapshot has no live authentication or transaction acceptance claim.

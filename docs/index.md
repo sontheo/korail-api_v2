@@ -4,7 +4,7 @@ A synchronous, unofficial Python client for KORAIL. The repository root contains
 
 The `korail_api` namespace and compatible `korail_mobile_api` imports expose the same client, models and exceptions. The offline contract includes 239 root exports and 86 public client methods, covering authentication, train search, reservations, payments, refunds, account reads and product operations.
 
-Start with [installation and usage](getting-started.md), then see the [source layout](ARCHITECTURE.md) and [validation record](VALIDATION.md). The previous implementation and history are maintained separately. Applicable attribution and historical license/NOTICE files remain here in `licenses/`.
+Start with [installation and usage](getting-started.md), then see the [source layout](ARCHITECTURE.md) and [validation record](VALIDATION.md). The previous implementation and history are maintained separately. It is not a runtime or build dependency of this distribution.
 
 The current implementation preserves transaction failure context, avoids automatic transaction retries and distinguishes business rejection, invalid responses and session errors. Automated checks use synthetic data and block network access; offline validation does not establish live-service acceptance.
 

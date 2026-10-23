@@ -34,7 +34,7 @@ korail-api_v2/
 │   ├── performance/         # Equivalent benchmarks and profiling
 │   └── reports/             # Comparison evidence and recorded samples
 ├── docs/                    # Current documentation site
-└── licenses/                # Retained historical license and NOTICE
+└── THIRD_PARTY_NOTICES.md    # Bundled data and runtime dependency notices
 ```
 
 The wheel contains the two runtime namespaces and release documentation. The source archive also contains the standalone tests, artifact checker and catalog importer. The previous implementation and observation generators are not included. Captured decoder outcomes, validators, performance tools and reports are development-only.

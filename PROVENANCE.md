@@ -18,7 +18,7 @@ This process is **not strict clean-room development**. The same developer had ac
 | Diagnostic token vectors | New serializer checked against known vectors |
 | Error message catalog | Extracted directly from a locally available KORAIL application resource, not copied from the previous Python catalog |
 | Dependencies | Used as dependencies; their own licenses continue to apply |
-| Previous fork and history | Preserved in the separate development checkout; historical license and NOTICE retained here in `licenses/` |
+| Previous fork and history | Preserved with their notices in the separate development checkout; not bundled or required as a dependency here |
 
 The vendor error catalog was imported from `assets/error_json.json` in a locally available application artifact identified as version `7.0.10`. Its resource SHA-256 is `7b7998f2582217aba20e58a722b3640a6ef3a2751d9816aaf2f78cfc97c74d00`. The importer records 12,430 codes and 19,381 translations. The version label comes from the local artifact context; the artifact's delivery origin was not independently authenticated. The APK and extracted raw vendor files are not distributed. The catalog text remains third-party material; independent extraction does not make its text maintainer-owned or supply a redistribution license.
 
@@ -34,6 +34,6 @@ This package does not certify that all copyright or attribution obligations have
 
 ## New repository boundary
 
-The `korail-api_v2` repository begins with the current implementation in a new Git history. The earlier fork's source and Git history were not imported. Creating a new history is a packaging and maintenance decision, not evidence of a legal clean-room process. Applicable original attribution is retained in `NOTICE`, `THIRD_PARTY_NOTICES.md` and `licenses/`. The original development checkout and its notices remain separately preserved.
+The `korail-api_v2` repository begins with the current implementation in a new Git history. The earlier fork's source and Git history were not imported. Creating a new history is a packaging and maintenance decision, not evidence of a legal clean-room process. Historical reference license and NOTICE copies are omitted from the current distribution. The original development checkout and its notices remain separately preserved. Current notices cover this implementation, bundled vendor data and actual runtime dependencies.
 
 The historical benchmark JSON reports retain their numeric samples. Host-specific filenames were normalized to `reference-runtime/`, `current-runtime/`, `dependencies/` and `python-stdlib/` labels for publication. Normalization changes path labels, not timing results. Historical compatibility counts are explicitly distinguished from checks runnable in this repository.
