@@ -12,15 +12,13 @@ Apache-2.0 permits personal, internal and commercial use subject to its terms. T
 
 ## Implementation boundary
 
-The current code is implemented in `src/korail_api/`; `src/korail_mobile_api/` provides compatible imports. The previous implementation is not bundled, imported or required to build this distribution. Its source and Git history are maintained separately. Historical reference license and NOTICE copies are not part of the current distribution.
-
-[PROVENANCE.md](PROVENANCE.md) records the development method, including access to earlier source and behavioral compatibility checks. This document does not certify a strict clean-room process or determine the legal classification of every component.
+The code is implemented in `src/korail_api/`, the package's only public namespace. [PROVENANCE.md](PROVENANCE.md) records bundled materials and their origins.
 
 ## Redistribution
 
 Comply with the conditions that apply to the materials you distribute. For work covered by Apache-2.0, [Section 4](https://www.apache.org/licenses/LICENSE-2.0#redistribution) includes providing the license, identifying modifications, retaining applicable notices, and reproducing applicable NOTICE attribution in a permitted form. Preserve third-party notices and do not misrepresent authorship or remove notices that remain applicable. Distributing dependency binaries may also require their bundled license and notice files; this repository's direct-dependency summary is not an exhaustive license inventory for every environment.
 
-The wheel and source distribution include this project's license and notices for its bundled data and runtime dependencies. Development observations and performance reports are excluded from those artifacts. Excluding reference code or starting a new Git history is not a determination of legal independence.
+The wheel and source distribution include this project's license and notices for its bundled data and runtime dependencies. Development observations and performance reports are excluded from those artifacts.
 
 ## Vendor message data
 

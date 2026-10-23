@@ -1,4 +1,4 @@
-"""Independent implementation, with the previous public Python API names."""
+"""Synchronous KORAIL protocol client and public value objects."""
 
 from typing import Callable, Literal
 

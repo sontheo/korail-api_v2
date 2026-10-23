@@ -6,7 +6,7 @@ Apache License 2.0. This unofficial project is not affiliated with KORAIL.
 
 Changes in this implementation include separate schema-driven request and
 response engines, generated value objects, service and transport boundaries,
-compatibility adapters, token serialization, endpoint URL reuse, failure-context
+token serialization, endpoint URL reuse, failure-context
 preservation, independent tests, packaging and English documentation.
 
 Bundled vendor message text in src/korail_api/resources/messages/ was extracted
